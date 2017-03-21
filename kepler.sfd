@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1489459547
+ModificationTime: 1490076654
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -34,6 +34,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 DEI: 91125
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -41,8 +42,8 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 46 15
-BeginChars: 256 39
+WinInfo: 0 51 16
+BeginChars: 256 46
 
 StartChar: A
 Encoding: 65 65 0
@@ -184,7 +185,7 @@ SplineSet
  100 0 l 25
  100 50 l 25
  475 50 l 25
- 475 750 l 25
+ 475 750 l 29
  100 750 l 25
  100 800 l 25
 EndSplineSet
@@ -940,8 +941,8 @@ SplineSet
  900 800 l 1
  900 375 l 1
  525 375 l 1
- 525 200 l 1
- 475 200 l 1
+ 525 250 l 1
+ 475 250 l 1
  474 425 l 1
  850 425 l 1
  850 750 l 1
@@ -954,8 +955,8 @@ SplineSet
     900 800 v
     900 375 v
     525 375 v
-    525 200 v
-    475 200 v
+    525 250 v
+    475 250 v
     474 425 v
     850 425 v
     850 750 v
@@ -963,15 +964,15 @@ SplineSet
     165 425 v
     0 0 z
   EndSpiro
-475 0 m 25
- 475 100 l 25
- 525 100 l 25
- 525 0 l 25
- 475 0 l 25
+475 0 m 1
+ 475 149 l 1
+ 525 149 l 1
+ 525 0 l 1
+ 475 0 l 1
   Spiro
     475 0 v
-    475 100 v
-    525 100 v
+    475 149 v
+    525 149 v
     525 0 v
     0 0 z
   EndSpiro
@@ -1008,7 +1009,7 @@ StartChar: K
 Encoding: 75 75 38
 Width: 1000
 VWidth: 0
-Flags: HO
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -1024,6 +1025,168 @@ SplineSet
  150 0 l 25
  100 0 l 25
  100 800 l 25
+EndSplineSet
+EndChar
+
+StartChar: backslash
+Encoding: 92 92 39
+Width: 1000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+100 800 m 25
+ 165 800 l 25
+ 900 0 l 25
+ 835 0 l 25
+ 100 800 l 25
+EndSplineSet
+EndChar
+
+StartChar: bracketleft
+Encoding: 91 91 40
+Width: 1000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+425 800 m 25
+ 575 800 l 25
+ 575 750 l 25
+ 475 750 l 25
+ 475 50 l 25
+ 575 50 l 25
+ 575 0 l 25
+ 425 0 l 25
+ 425 800 l 25
+EndSplineSet
+EndChar
+
+StartChar: bracketright
+Encoding: 93 93 41
+Width: 1000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+425 800 m 25
+ 575 800 l 25
+ 575 0 l 25
+ 425 0 l 25
+ 425 50 l 25
+ 525 50 l 25
+ 525 750 l 25
+ 425 750 l 25
+ 425 800 l 25
+EndSplineSet
+EndChar
+
+StartChar: plus
+Encoding: 43 43 42
+Width: 1000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+475 800 m 25
+ 525 800 l 25
+ 525 425 l 25
+ 900 425 l 25
+ 900 375 l 25
+ 525 375 l 25
+ 525 0 l 25
+ 475 0 l 25
+ 475 375 l 25
+ 100 375 l 25
+ 100 425 l 25
+ 475 425 l 25
+ 475 800 l 25
+EndSplineSet
+EndChar
+
+StartChar: exclam
+Encoding: 33 33 43
+Width: 1000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+475 150 m 25
+ 525 150 l 25
+ 525 0 l 25
+ 475 0 l 25
+ 475 150 l 25
+475 800 m 25
+ 525 800 l 25
+ 525 250 l 25
+ 475 250 l 25
+ 475 800 l 25
+EndSplineSet
+EndChar
+
+StartChar: numbersign
+Encoding: 35 35 44
+Width: 1000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+617 517 m 25
+ 383 517 l 25
+ 383 284 l 25
+ 617 284 l 25
+ 617 517 l 25
+334 800 m 25
+ 383 800 l 25
+ 383 566 l 25
+ 617 566 l 25
+ 617 800 l 25
+ 666 800 l 25
+ 666 566 l 25
+ 900 566 l 25
+ 900 517 l 25
+ 666 517 l 25
+ 666 284 l 25
+ 900 284 l 25
+ 900 235 l 25
+ 666 235 l 25
+ 666 0 l 25
+ 617 0 l 25
+ 617 235 l 25
+ 383 235 l 25
+ 383 0 l 25
+ 334 0 l 25
+ 334 235 l 25
+ 100 235 l 25
+ 100 284 l 25
+ 334 284 l 25
+ 334 517 l 25
+ 100 517 l 25
+ 100 566 l 25
+ 334 566 l 25
+ 334 800 l 25
+EndSplineSet
+EndChar
+
+StartChar: slash
+Encoding: 47 47 45
+Width: 1000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+835 800 m 25
+ 900 800 l 25
+ 165 0 l 25
+ 100 0 l 25
+ 835 800 l 25
 EndSplineSet
 EndChar
 EndChars
