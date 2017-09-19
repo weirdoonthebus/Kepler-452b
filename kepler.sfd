@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1505760665
+ModificationTime: 1505842645
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,10 +44,10 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 51 15
+WinInfo: 0 51 21
 BeginPrivate: 0
 EndPrivate
-BeginChars: 256 74
+BeginChars: 256 78
 
 StartChar: A
 Encoding: 65 65 0
@@ -1696,7 +1696,7 @@ SplineSet
  150 50 l 25
  850 50 l 25
  850 187 l 25
-100 425 m 25
+100 425 m 29
  900 425 l 25
  900 0 l 25
  100 0 l 25
@@ -1704,7 +1704,7 @@ SplineSet
  850 237 l 25
  850 375 l 25
  100 375 l 25
- 100 425 l 25
+ 100 425 l 29
 EndSplineSet
 EndChar
 
@@ -1817,8 +1817,127 @@ StartChar: d
 Encoding: 100 100 73
 Width: 1000
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+SplineSet
+850 375 m 25
+ 150 375 l 25
+ 150 50 l 25
+ 850 50 l 25
+ 850 375 l 25
+100 425 m 25
+ 850 425 l 25
+ 850 800 l 25
+ 900 800 l 25
+ 900 0 l 25
+ 100 0 l 25
+ 100 425 l 25
+EndSplineSet
+EndChar
+
+StartChar: e
+Encoding: 101 101 74
+Width: 1000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+850 375 m 25
+ 150 375 l 25
+ 150 237 l 25
+ 850 237 l 25
+ 850 375 l 25
+100 425 m 25
+ 900 425 l 25
+ 900 187 l 25
+ 150 187 l 25
+ 150 50 l 25
+ 900 50 l 25
+ 900 0 l 25
+ 100 0 l 25
+ 100 425 l 25
+EndSplineSet
+EndChar
+
+StartChar: f
+Encoding: 102 102 75
+Width: 1000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+475 0 m 25
+ 475 375 l 25
+ 100 375 l 25
+ 100 425 l 25
+ 475 425 l 25
+ 475 800 l 25
+ 900 800 l 25
+ 900 750 l 25
+ 525 750 l 25
+ 525 425 l 25
+ 900 425 l 25
+ 900 375 l 25
+ 525 375 l 25
+ 525 0 l 25
+ 475 0 l 25
+EndSplineSet
+EndChar
+
+StartChar: s
+Encoding: 115 115 76
+Width: 1000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+100 425 m 25
+ 900 425 l 25
+ 900 375 l 25
+ 150 375 l 25
+ 150 237 l 25
+ 900 237 l 25
+ 900 0 l 25
+ 100 0 l 25
+ 100 50 l 25
+ 850 50 l 25
+ 850 187 l 25
+ 100 187 l 25
+ 100 425 l 25
+EndSplineSet
+EndChar
+
+StartChar: at
+Encoding: 64 64 77
+Width: 1000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+850 513 m 25
+ 300 513 l 25
+ 300 287 l 25
+ 850 287 l 25
+ 850 513 l 25
+900 237 m 25
+ 250 237 l 25
+ 250 563 l 25
+ 850 563 l 25
+ 850 750 l 25
+ 150 750 l 25
+ 150 50 l 25
+ 900 50 l 25
+ 900 0 l 25
+ 100 0 l 25
+ 100 800 l 25
+ 900 800 l 25
+ 900 237 l 25
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
