@@ -5,8 +5,8 @@
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20170731 at Tue Oct 24 14:34:40 2017
- By weird
+Created by FontForge 20170805 at Sun Feb 18 15:34:17 2018
+ By emma
 Created by Sam Murphey,,, with FontForge 2.0 (http://fontforge.sf.net)
 </metadata>
 <defs>
@@ -146,7 +146,7 @@ d="M100 800h50v-375h750v-425h-50v375h-700v-375h-50v800z" />
     <glyph glyph-name="l" unicode="l" 
 d="M475 800h50v-800h-50v800z" />
     <glyph glyph-name="t" unicode="t" 
-d="M475 800h50v-234h375v-49h-375v-517h-50v517h-375v49h375v234z" />
+d="M475 800h50v-375h375v-50h-375v-375h-50v375h-375v50h375v375z" />
     <glyph glyph-name="bar" unicode="|" 
 d="M475 800h50v-800h-50v800z" />
     <glyph glyph-name="asciitilde" unicode="~" 
