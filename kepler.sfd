@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1518996857
+ModificationTime: 1534030308
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -45,7 +45,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 33 23
+WinInfo: 0 36 10
 BeginPrivate: 0
 EndPrivate
 BeginChars: 256 84
@@ -283,7 +283,7 @@ SplineSet
  900 800 l 25
  900 750 l 25
  525 750 l 25
- 525 0 l 25
+ 525 0 l 29
  475 0 l 25
  475 750 l 25
  100 750 l 25
@@ -490,6 +490,7 @@ StartChar: U
 Encoding: 85 85 17
 Width: 1000
 VWidth: 0
+Flags: HO
 HStem: 0 50<150 495> 780 20G<100 150 850 900>
 VStem: 100 50<50 800> 850 50<405 800>
 LayerCount: 2
@@ -497,17 +498,16 @@ Fore
 SplineSet
 100 800 m 25
  150 800 l 25
- 150 50 l 25
- 495 50 l 25
- 850 405 l 25
+ 150 405 l 25
+ 505 50 l 25
+ 850 50 l 29
  850 800 l 25
  900 800 l 25
- 900 375 l 25
- 525 0 l 25
- 100 0 l 25
+ 900 0 l 25
+ 475 0 l 25
+ 100 375 l 25
  100 800 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Z
@@ -1575,7 +1575,7 @@ StartChar: t
 Encoding: 116 116 59
 Width: 1000
 VWidth: 0
-Flags: HO
+Flags: H
 HStem: 0 21G<475 525> 517 49<100 475 525 900> 780 20G<475 525>
 VStem: 475 50<0 517 566 800>
 LayerCount: 2
@@ -1585,12 +1585,12 @@ SplineSet
  525 800 l 25
  525 425 l 25
  900 425 l 25
- 900 375 l 29
- 525 375 l 29
+ 900 375 l 25
+ 525 375 l 25
  525 0 l 25
  475 0 l 25
- 475 375 l 29
- 100 375 l 29
+ 475 375 l 25
+ 100 375 l 25
  100 425 l 25
  475 425 l 25
  475 800 l 25
