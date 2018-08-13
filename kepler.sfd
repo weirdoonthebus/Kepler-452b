@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1534108495
+ModificationTime: 1534108872
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -48,7 +48,7 @@ FitToEm: 1
 WinInfo: 0 36 10
 BeginPrivate: 0
 EndPrivate
-BeginChars: 256 98
+BeginChars: 256 99
 
 StartChar: A
 Encoding: 65 65 0
@@ -1430,13 +1430,13 @@ HStem: 780 20G<480 520>
 LayerCount: 2
 Fore
 SplineSet
-100 400 m 25
- 500 800 l 25
- 900 400 l 25
- 835 400 l 25
+100 400 m 29
+ 500 800 l 29
+ 900 400 l 29
+ 835 400 l 29
  500 735 l 29
- 165 400 l 25
- 100 400 l 25
+ 165 400 l 29
+ 100 400 l 29
 EndSplineSet
 Validated: 1
 EndChar
@@ -2467,11 +2467,11 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-400 965 m 17
- 535 1100 l 9
- 600 1100 l 17
- 400 900 l 1
- 400 965 l 17
+400 965 m 21
+ 535 1100 l 13
+ 600 1100 l 21
+ 400 900 l 5
+ 400 965 l 21
 850 750 m 25x3c
  150 750 l 25
  150 425 l 25
@@ -2493,7 +2493,7 @@ StartChar: acute
 Encoding: 180 180 97
 Width: 1000
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2502,6 +2502,38 @@ SplineSet
  400 600 l 21
  600 800 l 5
  600 735 l 21
+EndSplineSet
+EndChar
+
+StartChar: Acircumflex
+Encoding: 194 194 98
+Width: 1000
+VWidth: 0
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+365 965 m 17
+ 500 1100 l 9
+ 645 965 l 1
+ 645 900 l 1
+ 502 1032 l 5
+ 365 900 l 1
+ 365 965 l 17
+850 750 m 25x3c
+ 150 750 l 25
+ 150 425 l 25
+ 850 425 l 25
+ 850 750 l 25x3c
+100 800 m 25
+ 900 800 l 25
+ 900 0 l 25
+ 850 0 l 25
+ 850 375 l 25
+ 150 375 l 25
+ 150 0 l 25
+ 100 0 l 25xbc
+ 100 800 l 25
 EndSplineSet
 EndChar
 EndChars
