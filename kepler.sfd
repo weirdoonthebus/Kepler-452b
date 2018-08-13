@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1534176721
+ModificationTime: 1534179752
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -48,7 +48,7 @@ FitToEm: 1
 WinInfo: 0 36 10
 BeginPrivate: 0
 EndPrivate
-BeginChars: 256 179
+BeginChars: 256 183
 
 StartChar: A
 Encoding: 65 65 0
@@ -304,22 +304,22 @@ CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
-510 750 m 25
- 150 750 l 25
- 150 425 l 25
- 835 425 l 25
- 510 750 l 25
-850 375 m 25
- 150 375 l 25
- 150 50 l 25
- 850 50 l 25
- 850 375 l 25
-100 800 m 25
- 525 800 l 25
- 900 425 l 25
- 900 0 l 25
- 100 0 l 25
- 100 800 l 25
+510 750 m 29
+ 150 750 l 29
+ 150 425 l 29
+ 835 425 l 29
+ 510 750 l 29
+850 375 m 29
+ 150 375 l 29
+ 150 50 l 29
+ 850 50 l 29
+ 850 375 l 29
+100 800 m 29
+ 525 800 l 29
+ 900 425 l 29
+ 900 0 l 29
+ 100 0 l 29
+ 100 800 l 29
 EndSplineSet
 Validated: 1
 EndChar
@@ -4502,7 +4502,7 @@ StartChar: currency
 Encoding: 164 164 168
 Width: 1000
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4511,8 +4511,8 @@ SplineSet
  300 200 l 25
  700 200 l 25
  700 600 l 25
-200 665 m 5
- 235 700 l 5
+200 665 m 1
+ 235 700 l 1
  285 650 l 1
  715 650 l 1
  765 700 l 1
@@ -4527,7 +4527,7 @@ SplineSet
  200 135 l 1
  250 185 l 1
  250 615 l 1
- 200 665 l 5
+ 200 665 l 1
 EndSplineSet
 EndChar
 
@@ -4806,6 +4806,130 @@ SplineSet
  655 325 l 25
  100 325 l 25
  100 800 l 25
+EndSplineSet
+EndChar
+
+StartChar: asterisk
+Encoding: 42 42 179
+Width: 1000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+475 613 m 1xb8
+ 525 613 l 1
+ 525 460 l 1
+ 865 800 l 1
+ 900 765 l 1
+ 560 425 l 1
+ 713 425 l 1
+ 713 375 l 1
+ 560 375 l 1
+ 900 35 l 1
+ 865 0 l 1
+ 525 340 l 1
+ 525 187 l 1
+ 475 187 l 1
+ 475 340 l 1
+ 135 0 l 1
+ 100 35 l 1
+ 440 375 l 1
+ 287 375 l 1
+ 287 425 l 1
+ 440 425 l 1
+ 100 765 l 1
+ 135 800 l 1
+ 475 460 l 1
+ 475 613 l 1xb8
+EndSplineSet
+EndChar
+
+StartChar: thorn
+Encoding: 254 254 180
+Width: 1000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+475 462 m 25x3c
+ 150 462 l 25
+ 150 337 l 25
+ 475 337 l 25
+ 475 462 l 25x3c
+100 800 m 1
+ 150 800 l 0
+ 150 512 l 1
+ 525 512 l 1
+ 525 287 l 25
+ 150 287 l 25
+ 150 0 l 25
+ 100 0 l 1xbc
+ 100 512 l 0
+ 100 800 l 1
+EndSplineSet
+EndChar
+
+StartChar: Thorn
+Encoding: 222 222 181
+Width: 1000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+850 562 m 29x3c
+ 150 562 l 29
+ 150 237 l 29
+ 850 237 l 29
+ 850 562 l 29x3c
+100 800 m 5
+ 150 800 l 4
+ 150 612 l 5
+ 900 612 l 5
+ 900 187 l 29
+ 150 187 l 29
+ 150 0 l 29
+ 100 0 l 5xbc
+ 100 612 l 4
+ 100 800 l 5
+EndSplineSet
+EndChar
+
+StartChar: germandbls
+Encoding: 223 223 182
+Width: 1000
+VWidth: 0
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+510 750 m 25
+ 150 750 l 25
+ 150 425 l 25
+ 835 425 l 25
+ 510 750 l 25
+100 800 m 1
+ 525 800 l 25
+ 900 425 l 25
+ 900 0 l 1
+ 250 0 l 1
+ 250 150 l 1
+ 300 150 l 1
+ 300 50 l 1
+ 850 50 l 1
+ 850 375 l 1
+ 150 375 l 1
+ 150 0 l 1
+ 0 0 l 1
+ 0 50 l 1
+ 100 50 l 5
+ 100 375 l 1
+ 0 375 l 1
+ 0 425 l 1
+ 100 425 l 1
+ 100 800 l 1
 EndSplineSet
 EndChar
 EndChars
