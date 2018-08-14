@@ -3,7 +3,7 @@ Kepler
 
 Kepler is the first font I've designed. The goal was to create a futuristic / minimal typeface with an angular character to set it apart.
 
-![Kepler Glyphs](./glyphs.jpg)
+![Kepler Glyphs](./glyphs-0.jpg)
 
 
 The Design
