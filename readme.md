@@ -24,6 +24,15 @@ _ - via Wikipedia_
 License
 -------
 
-This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. This means you may use it in whatever you like, be it public or commercial. Remix works may be produced as well, so long as you credit me as the original designer and append this same license to the project.
+This work is licensed under the SIL Open Font License (OFL)
 
-![Creative Commons Attribution-ShareAlike 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+![OFL Logo](https://scripts.sil.org/cms/sites/nrsi/media/OFL_logo_rect_color.png)
+
+
+Donate
+------
+
+You are free to use the font however you like: personal, commercial, etc. However if you enjoy the design and would care to send a couple $$$ my 
+way I would be most appreciative :)
+
+[PayPal](https://www.paypal.me/sammurphey)
