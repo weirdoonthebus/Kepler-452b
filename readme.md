@@ -46,4 +46,4 @@ Donate
 You are free to use the font however you like: personal, commercial, etc. However if you enjoy the design and would care to send a couple $$$ my 
 way I would be most appreciative :)
 
-[PayPal](https://www.paypal.me/sammurphey)
+[PayPal](https://paypal.me/sammurphey) · [Venmo](https://venmo.com/sammurphey) · [KoFi](https://kofi.com/sammurphey)
