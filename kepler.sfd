@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: Kepler-452b
 FullName: Kepler 452b
 FamilyName: Kepler
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1534259407
+ModificationTime: 1637363909
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -45,7 +45,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 12 10
+WinInfo: 36 18 7
 BeginPrivate: 3
 StdVW 4 [50]
 StdHW 4 [50]
@@ -57,49 +57,52 @@ StartChar: A
 Encoding: 65 65 0
 Width: 1000
 VWidth: 0
+Flags: H
 HStem: 0 21G<100 150 850 900> 0 21G<100 150 850 900> 375 50<150 850> 750 50<150 850>
 VStem: 100 50<0 375 425 750> 850 50<0 375 425 750>
 LayerCount: 2
 Fore
 SplineSet
-850 750 m 29x3c
- 150 750 l 29
- 150 425 l 29
- 850 425 l 29
- 850 750 l 29x3c
-100 800 m 29
- 900 800 l 29
- 900 0 l 29
- 850 0 l 29
- 850 375 l 29
- 150 375 l 29
- 150 0 l 29
- 100 0 l 29xbc
- 100 800 l 29
+850 750 m 1x3c
+ 565 750 l 29
+ 150 425 l 1
+ 850 425 l 25
+ 850 750 l 1x3c
+515 800 m 13
+ 900 800 l 1
+ 900 0 l 25
+ 850 0 l 25
+ 850 375 l 25
+ 150 375 l 25
+ 150 0 l 25
+ 100 0 l 17xbc
+ 100 424 l 1
+ 515 800 l 13
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: C
 Encoding: 67 67 1
 Width: 1000
 VWidth: 0
+Flags: H
 HStem: 0 50<150 900> 750 50<150 900>
 VStem: 100 50<50 750>
 LayerCount: 2
 Fore
 SplineSet
-100 800 m 29
- 900 800 l 29
- 900 750 l 29
- 150 750 l 29
- 150 50 l 29
- 900 50 l 29
- 900 0 l 29
- 100 0 l 29
- 100 800 l 29
+494 801 m 13
+ 900 800 l 1
+ 900 750 l 1
+ 544 751 l 21
+ 150 424 l 1
+ 150 50 l 9
+ 900 50 l 25
+ 900 0 l 25
+ 100 0 l 17
+ 100 424 l 1
+ 494 801 l 13
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: E
@@ -356,6 +359,7 @@ StartChar: G
 Encoding: 71 71 12
 Width: 1000
 VWidth: 0
+Flags: H
 HStem: 0 50<150 494> 375 50<475 781> 750 50<150 900>
 VStem: 100 50<50 750>
 CounterMasks: 1 e0
@@ -376,7 +380,6 @@ SplineSet
  100 0 l 25
  100 800 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: J
@@ -447,7 +450,7 @@ SplineSet
  492 360 l 25
  521 390 l 25
  697 229 l 25
- 850 390 l 25
+ 850 390 l 29
  850 750 l 25
 100 800 m 25
  900 800 l 25
@@ -495,22 +498,23 @@ StartChar: U
 Encoding: 85 85 17
 Width: 1000
 VWidth: 0
+Flags: H
 HStem: 0 50<505 850> 780 20G<100 150 850 900>
 VStem: 100 50<405 800> 850 50<50 800>
 LayerCount: 2
 Fore
 SplineSet
-100 800 m 29
- 150 800 l 29
- 150 405 l 29
+100 800 m 25
+ 150 800 l 25
+ 150 405 l 25
  505 50 l 29
- 850 50 l 29
- 850 800 l 29
- 900 800 l 29
- 900 0 l 29
- 475 0 l 29
- 100 375 l 29
- 100 800 l 29
+ 850 50 l 25
+ 850 800 l 25
+ 900 800 l 25
+ 900 0 l 25
+ 475 0 l 25
+ 100 375 l 25
+ 100 800 l 25
 EndSplineSet
 Validated: 1
 EndChar
@@ -1540,6 +1544,7 @@ StartChar: h
 Encoding: 104 104 57
 Width: 1000
 VWidth: 0
+Flags: H
 HStem: 0 21G<100 150 850 900> 375 50<150 850> 780 20G<100 150>
 VStem: 100 50<0 375 425 800> 850 50<0 375>
 LayerCount: 2
@@ -1548,10 +1553,10 @@ SplineSet
 100 800 m 25
  150 800 l 25
  150 425 l 25
- 900 425 l 25
+ 525 425 l 25
  900 0 l 25
- 850 0 l 25
- 850 375 l 25
+ 835 0 l 29
+ 510 375 l 25
  150 375 l 25
  150 0 l 25
  100 0 l 25
@@ -1650,7 +1655,7 @@ StartChar: g
 Encoding: 103 103 62
 Width: 1000
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -1660,12 +1665,13 @@ SplineSet
  850 50 l 25
  850 375 l 25
 100 425 m 25
- 900 425 l 25
- 900 -375 l 25
- 100 -375 l 25
+ 900 425 l 1
+ 900 0 l 1
+ 525 -375 l 1
+ 100 -375 l 1
  100 -325 l 25
- 850 -325 l 25
- 850 0 l 25
+ 507 -325 l 25
+ 840 0 l 25
  100 0 l 25
  100 425 l 25
 EndSplineSet
@@ -1950,26 +1956,27 @@ StartChar: e
 Encoding: 101 101 74
 Width: 1000
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 50<150 900> 187 50<150 850> 375 50<150 850>
 VStem: 100 50<50 187 237 375> 850 50<237 375>
 LayerCount: 2
 Fore
 SplineSet
-850 375 m 29
- 150 375 l 29
- 150 237 l 29
- 850 237 l 29
- 850 375 l 29
-100 425 m 29
- 900 425 l 29
- 900 187 l 29
- 150 187 l 29
- 150 50 l 29
- 900 50 l 29
- 900 0 l 29
- 100 0 l 29
- 100 425 l 29
+850 375 m 25
+ 495 375 l 25
+ 205 237 l 25
+ 850 237 l 25
+ 850 375 l 25
+475 425 m 1
+ 900 425 l 25
+ 900 187 l 25
+ 150 187 l 25
+ 150 50 l 25
+ 900 50 l 25
+ 900 0 l 25
+ 100 0 l 1
+ 100 237 l 1
+ 475 425 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -2066,7 +2073,7 @@ StartChar: v
 Encoding: 118 118 78
 Width: 1000
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 0 21G<100 177.647> 405 20G<100 150 456.944 535>
 VStem: 100 50<65 425>
 LayerCount: 2
@@ -2081,6 +2088,7 @@ SplineSet
  313 0 l 5
  313 425 l 29
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: y
