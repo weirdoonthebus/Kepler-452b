@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1637363909
+ModificationTime: 1638838252
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,58 +36,56 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard Ligatures in Latin lookup 0-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-Encoding: ISO8859-1
+Encoding: Custom
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 36 18 7
+WinInfo: 144 18 7
 BeginPrivate: 3
 StdVW 4 [50]
 StdHW 4 [50]
 BlueValues 21 [0 0 425 425 800 800]
 EndPrivate
-BeginChars: 256 189
+BeginChars: 259 192
 
 StartChar: A
 Encoding: 65 65 0
 Width: 1000
 VWidth: 0
 Flags: H
-HStem: 0 21G<100 150 850 900> 0 21G<100 150 850 900> 375 50<150 850> 750 50<150 850>
-VStem: 100 50<0 375 425 750> 850 50<0 375 425 750>
+HStem: 0 21G<100 150 850 900> 375 50<150 850> 750 50<565 850>
+VStem: 100 50<0 375> 850 50<0 375 425 750>
 LayerCount: 2
 Fore
 SplineSet
-850 750 m 1x3c
- 565 750 l 29
- 150 425 l 1
- 850 425 l 25
- 850 750 l 1x3c
-515 800 m 13
+850 750 m 1
+ 150 750 l 1
+ 850 65 l 25
+ 850 750 l 1
+100 800 m 9
  900 800 l 1
- 900 0 l 25
- 850 0 l 25
- 850 375 l 25
- 150 375 l 25
+ 900 0 l 1
+ 850 0 l 1
+ 150 685 l 1
  150 0 l 25
- 100 0 l 17xbc
+ 100 0 l 17
  100 424 l 1
- 515 800 l 13
+ 100 800 l 9
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: C
 Encoding: 67 67 1
 Width: 1000
 VWidth: 0
-Flags: H
-HStem: 0 50<150 900> 750 50<150 900>
-VStem: 100 50<50 750>
+HStem: 0 50<150 900> 751 50<544 900>
+VStem: 100 50<50 424>
 LayerCount: 2
 Fore
 SplineSet
@@ -103,6 +101,7 @@ SplineSet
  100 424 l 1
  494 801 l 13
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: E
@@ -359,7 +358,6 @@ StartChar: G
 Encoding: 71 71 12
 Width: 1000
 VWidth: 0
-Flags: H
 HStem: 0 50<150 494> 375 50<475 781> 750 50<150 900>
 VStem: 100 50<50 750>
 CounterMasks: 1 e0
@@ -380,6 +378,7 @@ SplineSet
  100 0 l 25
  100 800 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: J
@@ -498,7 +497,6 @@ StartChar: U
 Encoding: 85 85 17
 Width: 1000
 VWidth: 0
-Flags: H
 HStem: 0 50<505 850> 780 20G<100 150 850 900>
 VStem: 100 50<405 800> 850 50<50 800>
 LayerCount: 2
@@ -1247,15 +1245,16 @@ StartChar: slash
 Encoding: 47 47 45
 Width: 1000
 VWidth: 0
-HStem: 0 21G<100 183.375> 0 21G<100 183.375> 780 20G<816.625 900>
+Flags: HW
+HStem: 0 21G<165 245.125> 780 20G<754.875 835>
 LayerCount: 2
 Fore
 SplineSet
-835 800 m 29xa0
- 900 800 l 29
- 165 0 l 29
- 100 0 l 29
- 835 800 l 29xa0
+820 800 m 29
+ 885 800 l 29
+ 198 0 l 25
+ 133 0 l 25
+ 820 800 l 29
 EndSplineSet
 Validated: 1
 EndChar
@@ -1491,23 +1490,24 @@ EndChar
 
 StartChar: i
 Encoding: 105 105 55
-Width: 1000
+Width: 250
 VWidth: 0
+Flags: HW
 HStem: 0 21G<475 525> 780 20G<475 525>
 VStem: 475 50<0 500 650 800>
 LayerCount: 2
 Fore
 SplineSet
-475 800 m 29
- 525 800 l 29
- 525 650 l 29
- 475 650 l 29
- 475 800 l 29
-475 500 m 29
- 525 500 l 29
- 525 0 l 29
- 475 0 l 29
- 475 500 l 29
+100 800 m 25
+ 150 800 l 25
+ 150 650 l 25
+ 100 650 l 25
+ 100 800 l 25
+100 500 m 25
+ 150 500 l 25
+ 150 0 l 25
+ 100 0 l 25
+ 100 500 l 25
 EndSplineSet
 Validated: 1
 EndChar
@@ -1544,9 +1544,8 @@ StartChar: h
 Encoding: 104 104 57
 Width: 1000
 VWidth: 0
-Flags: H
-HStem: 0 21G<100 150 850 900> 375 50<150 850> 780 20G<100 150>
-VStem: 100 50<0 375 425 800> 850 50<0 375>
+HStem: 0 21G<100 150 817.667 900> 375 50<150 510> 780 20G<100 150>
+VStem: 100 50<0 375 425 800>
 LayerCount: 2
 Fore
 SplineSet
@@ -1957,17 +1956,17 @@ Encoding: 101 101 74
 Width: 1000
 VWidth: 0
 Flags: HW
-HStem: 0 50<150 900> 187 50<150 850> 375 50<150 850>
-VStem: 100 50<50 187 237 375> 850 50<237 375>
+HStem: 0 50<150 900> 187 50<205 850> 375 50<495 850>
+VStem: 100 50<50 187> 850 50<237 375>
 LayerCount: 2
 Fore
 SplineSet
 850 375 m 25
- 495 375 l 25
- 205 237 l 25
+ 345 375 l 25
+ 170 237 l 25
  850 237 l 25
  850 375 l 25
-475 425 m 1
+335 425 m 1
  900 425 l 25
  900 187 l 25
  150 187 l 25
@@ -1976,7 +1975,7 @@ SplineSet
  900 0 l 25
  100 0 l 1
  100 237 l 1
- 475 425 l 1
+ 335 425 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -2073,9 +2072,9 @@ StartChar: v
 Encoding: 118 118 78
 Width: 1000
 VWidth: 0
-Flags: HW
-HStem: 0 21G<100 177.647> 405 20G<100 150 456.944 535>
-VStem: 100 50<65 425>
+Flags: W
+HStem: 0 21G<313 390.647> 405 20G<313 363 669.944 748>
+VStem: 313 50<65 425>
 LayerCount: 2
 Fore
 SplineSet
@@ -2141,24 +2140,39 @@ StartChar: k
 Encoding: 107 107 81
 Width: 1000
 VWidth: 0
+InSpiro: 1
 Flags: W
-HStem: 0 21G<100 150 471.111 555> 780 20G<100 150 471.867 555>
+HStem: 0 21G<100 150 471.111 555> 375 50<202 555> 780 20G<100 150>
 VStem: 100 50<0 360 425 800>
 LayerCount: 2
 Fore
 SplineSet
-100 800 m 25
- 150 800 l 25
- 150 425 l 25
- 490 800 l 25
- 555 800 l 1
- 185 392 l 5
+100 800 m 1
+ 150 800 l 1
+ 150 425 l 1
+ 555 425 l 1
+ 555 375 l 1
+ 202 375 l 1
  555 0 l 1
- 490 0 l 25
+ 490 0 l 1
  150 360 l 1
- 150 0 l 25
- 100 0 l 25
- 100 800 l 25
+ 150 0 l 1
+ 100 0 l 1
+ 100 800 l 1
+  Spiro
+    100 800 v
+    150 800 v
+    150 425 v
+    555 425 v
+    555 375 v
+    202 375 v
+    555 0 v
+    490 0 v
+    150 360 v
+    150 0 v
+    100 0 v
+    0 0 z
+  EndSpiro
 EndSplineSet
 Validated: 1
 EndChar
@@ -2220,9 +2234,9 @@ EndChar
 
 StartChar: space
 Encoding: 32 32 84
-Width: 400
+Width: 665
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Validated: 1
@@ -5457,6 +5471,107 @@ SplineSet
  835 800 l 25
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: r_d
+Encoding: 256 -1 189
+Width: 1400
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+100 0 m 25
+ 100 575 l 25
+ 750 575 l 25
+ 750 525 l 25
+ 150 525 l 25
+ 150 0 l 25
+ 100 0 l 25
+1249 375 m 25
+ 549 375 l 25
+ 549 50 l 25
+ 1249 50 l 25
+ 1249 375 l 25
+499 425 m 25
+ 1249 425 l 25
+ 1249 800 l 25
+ 1299 800 l 25
+ 1299 0 l 25
+ 499 0 l 25
+ 499 425 l 25
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" r d
+EndChar
+
+StartChar: F_i
+Encoding: 257 -1 190
+Width: 1000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+100 800 m 25xb8
+ 900 800 l 25
+ 900 650 l 17
+ 850 650 l 1
+ 850 750 l 1
+ 150 750 l 1
+ 150 425 l 25
+ 525 425 l 25
+ 525 375 l 25
+ 150 375 l 25
+ 150 0 l 25
+ 100 0 l 25
+ 100 800 l 25xb8
+850 500 m 25
+ 900 500 l 25
+ 900 0 l 25
+ 850 0 l 25
+ 850 500 l 25
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" F i
+EndChar
+
+StartChar: F_e
+Encoding: 258 -1 191
+Width: 1500
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+100 800 m 25xb8
+ 900 800 l 25
+ 900 750 l 25
+ 150 750 l 25
+ 150 425 l 25
+ 525 425 l 25
+ 525 375 l 25
+ 150 375 l 25
+ 150 0 l 25
+ 100 0 l 25
+ 100 800 l 25xb8
+1350 375 m 25
+ 818 375 l 25
+ 670 237 l 25
+ 1350 237 l 25
+ 1350 375 l 25
+800 425 m 1
+ 1400 425 l 25
+ 1400 187 l 25
+ 650 187 l 25
+ 650 50 l 25
+ 1400 50 l 25
+ 1400 0 l 25
+ 600 0 l 1
+ 600 237 l 1
+ 800 425 l 1
+EndSplineSet
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" F e
 EndChar
 EndChars
 EndSplineFont
