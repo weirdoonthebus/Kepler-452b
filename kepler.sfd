@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1638838252
+ModificationTime: 1638918896
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard Ligatures in Latin lookup 0-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -45,13 +46,13 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 144 18 7
+WinInfo: 36 18 7
 BeginPrivate: 3
 StdVW 4 [50]
 StdHW 4 [50]
 BlueValues 21 [0 0 425 425 800 800]
 EndPrivate
-BeginChars: 259 192
+BeginChars: 260 193
 
 StartChar: A
 Encoding: 65 65 0
@@ -1370,20 +1371,20 @@ EndChar
 
 StartChar: period
 Encoding: 46 46 50
-Width: 1000
+Width: 450
 VWidth: 0
-HStem: 0 150<475 525>
-VStem: 475 50<0 150>
+Flags: HW
+HStem: 0 150<566 616>
+VStem: 566 50<0 150>
 LayerCount: 2
 Fore
 SplineSet
-475 0 m 29
- 475 150 l 29
- 525 150 l 29
- 525 0 l 29
- 475 0 l 29
+200 0 m 25
+ 200 150 l 25
+ 250 150 l 25
+ 250 0 l 25
+ 200 0 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: equal
@@ -1566,20 +1567,20 @@ EndChar
 
 StartChar: l
 Encoding: 108 108 58
-Width: 1000
+Width: 250
 VWidth: 0
+Flags: HW
 HStem: 0 21G<475 525> 780 20G<475 525>
 VStem: 475 50<0 800>
 LayerCount: 2
 Fore
 SplineSet
-475 800 m 25
- 525 800 l 25
- 525 0 l 25
- 475 0 l 25
- 475 800 l 25
+100 800 m 25
+ 150 800 l 25
+ 150 0 l 25
+ 100 0 l 25
+ 100 800 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: t
@@ -4599,21 +4600,20 @@ EndChar
 
 StartChar: periodcentered
 Encoding: 183 183 161
-Width: 1000
+Width: 450
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 325 150<475 525>
 VStem: 475 50<325 475>
 LayerCount: 2
 Fore
 SplineSet
-475 325 m 29
- 475 475 l 29
- 525 475 l 29
- 525 325 l 29
- 475 325 l 29
+200 325 m 25
+ 200 475 l 25
+ 250 475 l 25
+ 250 325 l 25
+ 200 325 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ordmasculine
@@ -5539,7 +5539,7 @@ EndChar
 StartChar: F_e
 Encoding: 258 -1 191
 Width: 1500
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5572,6 +5572,41 @@ SplineSet
 EndSplineSet
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" F e
+EndChar
+
+StartChar: V_e
+Encoding: 259 -1 192
+Width: 1600
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+100 800 m 25xb0
+ 150 800 l 25
+ 150 65 l 25
+ 835 800 l 25
+ 900 800 l 25
+ 150 0 l 25
+ 100 0 l 25
+ 100 800 l 25xb0
+1450 375 m 25
+ 945 375 l 25
+ 770 237 l 25
+ 1450 237 l 25
+ 1450 375 l 25
+935 425 m 1
+ 1500 425 l 25
+ 1500 187 l 25
+ 750 187 l 25
+ 750 50 l 25
+ 1500 50 l 25
+ 1500 0 l 25
+ 700 0 l 1
+ 700 237 l 1
+ 935 425 l 1
+EndSplineSet
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V e
 EndChar
 EndChars
 EndSplineFont
