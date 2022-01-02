@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1641158178
+ModificationTime: 1641163923
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 18 7
+WinInfo: 54 18 7
 BeginPrivate: 3
 StdVW 4 [44]
 StdHW 4 [44]
@@ -1213,7 +1213,7 @@ StartChar: numbersign
 Encoding: 35 35 44
 Width: 1280
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -1222,7 +1222,7 @@ SplineSet
  432 304 l 1
  848 304 l 1
  848 720 l 1
-368 1024 m 5
+368 1024 m 1
  432 1024 l 1
  432 784 l 1
  848 784 l 1
@@ -1241,18 +1241,17 @@ SplineSet
  848 240 l 1
  432 240 l 1
  432 0 l 1
- 368 0 l 5
- 368 240 l 5
+ 368 0 l 1
+ 368 240 l 1
  128 240 l 1
  128 304 l 1
- 368 304 l 5
- 368 720 l 5
- 192 720 l 1
- 192 784 l 1
- 368 784 l 5
- 368 1024 l 5
+ 368 304 l 1
+ 368 720 l 1
+ 128 720 l 5
+ 128 784 l 5
+ 368 784 l 1
+ 368 1024 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: slash
@@ -2393,21 +2392,20 @@ SplineSet
  672 64 l 5
  912 64 l 5
  912 0 l 5
- 606 0 l 5
- 606 272 l 5
- 370 512 l 5
- 606 748 l 5
- 606 1024 l 5
+ 608 0 l 5
+ 608 276 l 5
+ 372 512 l 5
+ 608 748 l 5
+ 608 1024 l 5
  912 1024 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: braceright
 Encoding: 125 125 94
 Width: 1280
 VWidth: 0
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Fore
 SplineSet
@@ -2418,16 +2416,15 @@ SplineSet
  672 0 l 1
  368 0 l 1
  368 64 l 1
- 606 64 l 1
- 606 304 l 1
- 814 512 l 1
- 606 720 l 1
- 606 960 l 1
+ 607 64 l 1
+ 607 304 l 1
+ 815 512 l 5
+ 607 720 l 1
+ 607 960 l 1
  368 960 l 1
  368 1024 l 1
  672 1024 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Agrave
@@ -4806,37 +4803,36 @@ StartChar: asterisk
 Encoding: 42 42 179
 Width: 1280
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
 608 1024 m 1
  672 1024 l 1
  672 829 l 1
- 823 980 l 1
- 868 934 l 1
- 718 784 l 1
+ 822 979 l 1
+ 867 934 l 1
+ 717 784 l 1
  912 784 l 1
  912 720 l 1
  717 720 l 1
- 868 569 l 1
- 823 524 l 1
+ 867 570 l 1
+ 822 525 l 1
  672 675 l 1
  672 480 l 1
  608 480 l 1
  608 675 l 1
- 456 523 l 5
- 411 568 l 5
+ 458 525 l 5
+ 413 570 l 5
  563 720 l 1
  368 720 l 1
  368 784 l 1
- 564 784 l 1
- 411 937 l 1
+ 563 784 l 1
+ 413 934 l 1
  458 979 l 1
  608 829 l 1
  608 1024 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: thorn
