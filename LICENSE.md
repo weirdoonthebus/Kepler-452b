@@ -1,15 +1,6 @@
+Copyright (c) 2022, WeirdoOnTheBus (weirdoonthebus@gmail.com),
+with Reserved Font Name Kepler-452b (kepler452b-regular & kepler452b-monospace).
 
-Note
-
-The Google translate widget on this page should not be used to provide a rough translation. Only the English original should be considered official and authoritative. See our translation policy in the OFL-FAQ section 8.5.
-
-Copyright (c) <dates>, <Copyright Holder> (<URL|email>),
-with Reserved Font Name <Reserved Font Name>.
-
-Copyright (c) <dates>, <additional Copyright Holder> (<URL|email>),
-with Reserved Font Name <additional Reserved Font Name>.
-
-Copyright (c) <dates>, <additional Copyright Holder> (<URL|email>).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
