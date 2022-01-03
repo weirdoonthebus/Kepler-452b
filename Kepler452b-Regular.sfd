@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1641171806
+ModificationTime: 1641246019
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 180 18 7
+WinInfo: 414 18 7
 BeginPrivate: 3
 StdVW 4 [44]
 StdHW 4 [44]
@@ -116,7 +116,7 @@ Grid
 128 2527 m 0
  128 -1569 l 1024
 EndSplineSet
-BeginChars: 294 228
+BeginChars: 528 462
 
 StartChar: A
 Encoding: 65 65 0
@@ -431,27 +431,26 @@ StartChar: J
 Encoding: 74 74 13
 Width: 1280
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-608 461 m 1
- 211 64 l 1
- 608 64 l 1
- 608 461 l 1
-128 1024 m 25
- 1152 1024 l 25
- 1152 960 l 25
- 672 960 l 25
- 672 0 l 25
- 128 0 l 1
- 128 64 l 1
- 608 544 l 1
- 608 960 l 1
- 128 960 l 25
- 128 1024 l 25
+608 461 m 5
+ 211 64 l 5
+ 608 64 l 5
+ 608 461 l 5
+128 1024 m 29
+ 1152 1024 l 29
+ 1152 960 l 29
+ 672 960 l 29
+ 672 0 l 29
+ 128 0 l 5
+ 128 64 l 5
+ 608 544 l 5
+ 608 960 l 5
+ 128 960 l 29
+ 128 1024 l 29
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: N
@@ -659,7 +658,7 @@ StartChar: X
 Encoding: 88 88 22
 Width: 1280
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -677,7 +676,6 @@ SplineSet
  595 512 l 5
  128 979 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Y
@@ -1783,7 +1781,7 @@ StartChar: a
 Encoding: 97 97 67
 Width: 1280
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -1802,7 +1800,6 @@ SplineSet
  128 480 l 29
  128 544 l 29
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: m
@@ -2183,29 +2180,28 @@ StartChar: x
 Encoding: 120 120 83
 Width: 1280
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-368 499 m 5
- 413 544 l 5
- 640 317 l 5
- 867 544 l 5
- 1152 544 l 5
- 1152 480 l 5
- 893 480 l 5
- 685 272 l 5
- 912 45 l 5
- 867 0 l 5
- 640 227 l 5
- 413 0 l 5
- 128 0 l 5
- 129 64 l 5
- 387 64 l 5
- 595 272 l 5
- 368 499 l 5
+368 499 m 1
+ 413 544 l 1
+ 640 317 l 1
+ 867 544 l 1
+ 1152 544 l 1
+ 1152 480 l 1
+ 893 480 l 1
+ 685 272 l 1
+ 912 45 l 1
+ 867 0 l 1
+ 640 227 l 1
+ 413 0 l 1
+ 128 0 l 1
+ 128 64 l 5
+ 387 64 l 1
+ 595 272 l 1
+ 368 499 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: space
@@ -5443,11 +5439,11 @@ EndChar
 
 StartChar: F_f
 Encoding: 276 -1 210
-Width: 2000
+Width: 2240
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 75 102 N 1 0 0 1 720 0 2
+Refer: 75 102 S 1 0 0 1 960 0 2
 Refer: 3 70 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" F f
@@ -5575,11 +5571,11 @@ EndChar
 
 StartChar: F_t
 Encoding: 287 -1 221
-Width: 2000
+Width: 2240
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 59 116 N 1 0 0 1 720 0 2
+Refer: 59 116 S 1 0 0 1 960 0 2
 Refer: 3 70 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" F t
@@ -5655,6 +5651,2814 @@ Refer: 80 122 N 1 0 0 1 720 0 2
 Refer: 3 70 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" F z
+EndChar
+
+StartChar: f_e
+Encoding: 294 -1 228
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 N 1 0 0 1 1152 0 2
+Refer: 75 102 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" f e
+EndChar
+
+StartChar: f_j
+Encoding: 295 -1 229
+Width: 1760
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 N 1 0 0 1 960 0 2
+Refer: 75 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" f j
+LCarets2: 1 0
+EndChar
+
+StartChar: f_x
+Encoding: 296 -1 230
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 N 1 0 0 1 960 0 2
+Refer: 75 102 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" f x
+EndChar
+
+StartChar: G_e
+Encoding: 297 -1 231
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 N 1 0 0 1 1152 0 2
+Refer: 12 71 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" G e
+EndChar
+
+StartChar: G_j
+Encoding: 298 -1 232
+Width: 1760
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 N 1 0 0 1 960 0 2
+Refer: 12 71 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" G j
+EndChar
+
+StartChar: G_x
+Encoding: 299 -1 233
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 N 1 0 0 1 960 0 2
+Refer: 12 71 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" G x
+EndChar
+
+StartChar: g_T
+Encoding: 300 -1 234
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 N 1 0 0 1 960 0 2
+Refer: 62 103 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" g T
+EndChar
+
+StartChar: h_T
+Encoding: 301 -1 235
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 N 1 0 0 1 960 0 2
+Refer: 57 104 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" h T
+EndChar
+
+StartChar: h_Y
+Encoding: 302 -1 236
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 N 1 0 0 1 960 0 2
+Refer: 57 104 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" h Y
+EndChar
+
+StartChar: I_f
+Encoding: 303 -1 237
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 75 102 N 1 0 0 1 960 0 2
+Refer: 5 73 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" I f
+EndChar
+
+StartChar: C_f
+Encoding: 304 -1 238
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 75 102 N 1 0 0 1 960 0 2
+Refer: 1 67 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" C f
+EndChar
+
+StartChar: I_t
+Encoding: 305 -1 239
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 59 116 N 1 0 0 1 960 0 2
+Refer: 5 73 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" I t
+EndChar
+
+StartChar: I_y
+Encoding: 306 -1 240
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 79 121 N 1 0 0 1 960 0 2
+Refer: 5 73 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" I y
+EndChar
+
+StartChar: J_C
+Encoding: 307 -1 241
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1 67 N 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J C
+LCarets2: 1 0
+EndChar
+
+StartChar: J_a
+Encoding: 308 -1 242
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 67 97 N 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J a
+LCarets2: 1 0
+EndChar
+
+StartChar: J_c
+Encoding: 309 -1 243
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 72 99 N 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J c
+LCarets2: 1 0
+EndChar
+
+StartChar: J_d
+Encoding: 310 -1 244
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 73 100 N 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J d
+EndChar
+
+StartChar: J_e
+Encoding: 311 -1 245
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 N 1 0 0 1 959 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J e
+EndChar
+
+StartChar: J_f
+Encoding: 312 -1 246
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 75 102 N 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J f
+EndChar
+
+StartChar: J_g
+Encoding: 313 -1 247
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 62 103 N 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J g
+EndChar
+
+StartChar: J_i
+Encoding: 314 -1 248
+Width: 1472
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 55 105 S 1 0 0 1 1152 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J i
+EndChar
+
+StartChar: J_j
+Encoding: 315 -1 249
+Width: 1520
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 N 1 0 0 1 720 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J j
+EndChar
+
+StartChar: J_m
+Encoding: 316 -1 250
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 68 109 N 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J m
+EndChar
+
+StartChar: J_n
+Encoding: 317 -1 251
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 69 110 N 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J n
+EndChar
+
+StartChar: J_o
+Encoding: 318 -1 252
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 63 111 N 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J o
+EndChar
+
+StartChar: J_p
+Encoding: 319 -1 253
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 64 112 N 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J p
+EndChar
+
+StartChar: J_q
+Encoding: 320 -1 254
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 65 113 S 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J q
+EndChar
+
+StartChar: J_r
+Encoding: 321 -1 255
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 70 114 S 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J r
+EndChar
+
+StartChar: J_s
+Encoding: 322 -1 256
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 76 115 S 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J s
+EndChar
+
+StartChar: J_t
+Encoding: 323 -1 257
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 59 116 S 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J t
+EndChar
+
+StartChar: J_u
+Encoding: 324 -1 258
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 66 117 S 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J u
+EndChar
+
+StartChar: J_v
+Encoding: 325 -1 259
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 78 118 S 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J v
+EndChar
+
+StartChar: J_w
+Encoding: 326 -1 260
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 82 119 S 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J w
+EndChar
+
+StartChar: J_x
+Encoding: 327 -1 261
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 S 1 0 0 1 720 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J x
+EndChar
+
+StartChar: J_y
+Encoding: 328 -1 262
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 79 121 S 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J y
+EndChar
+
+StartChar: J_z
+Encoding: 329 -1 263
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 80 122 S 1 0 0 1 960 0 2
+Refer: 13 74 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J z
+EndChar
+
+StartChar: j_T
+Encoding: 330 -1 264
+Width: 1760
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 N 1 0 0 1 480 0 2
+Refer: 56 106 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" j T
+EndChar
+
+StartChar: K_T
+Encoding: 331 -1 265
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 960 0 2
+Refer: 38 75 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" K T
+EndChar
+
+StartChar: K_Y
+Encoding: 332 -1 266
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 960 0 2
+Refer: 38 75 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" K Y
+EndChar
+
+StartChar: k_I
+Encoding: 333 -1 267
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 5 73 S 1 0 0 1 960 0 2
+Refer: 81 107 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" k I
+EndChar
+
+StartChar: k_J
+Encoding: 334 -1 268
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 13 74 S 1 0 0 1 960 0 2
+Refer: 81 107 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" k J
+EndChar
+
+StartChar: k_T
+Encoding: 335 -1 269
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 960 0 2
+Refer: 81 107 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" k T
+EndChar
+
+StartChar: k_X
+Encoding: 336 -1 270
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 22 88 N 1 0 0 1 960 0 2
+Refer: 81 107 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" k X
+EndChar
+
+StartChar: k_Y
+Encoding: 337 -1 271
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 960 0 2
+Refer: 81 107 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" k Y
+EndChar
+
+StartChar: k_Z
+Encoding: 338 -1 272
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 18 90 S 1 0 0 1 960 0 2
+Refer: 81 107 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" k Z
+EndChar
+
+StartChar: k_e
+Encoding: 339 -1 273
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 1152 0 2
+Refer: 81 107 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" k e
+EndChar
+
+StartChar: k_j
+Encoding: 340 -1 274
+Width: 1760
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 S 1 0 0 1 960 0 2
+Refer: 81 107 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" k j
+EndChar
+
+StartChar: k_x
+Encoding: 341 -1 275
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 S 1 0 0 1 960 0 2
+Refer: 81 107 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" k x
+EndChar
+
+StartChar: L_T
+Encoding: 342 -1 276
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 720 0 2
+Refer: 6 76 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" L T
+EndChar
+
+StartChar: L_U
+Encoding: 343 -1 277
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 17 85 S 1 0 0 1 960 0 2
+Refer: 6 76 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" L U
+EndChar
+
+StartChar: L_Y
+Encoding: 344 -1 278
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 720 0 2
+Refer: 6 76 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" L Y
+EndChar
+
+StartChar: L_f
+Encoding: 345 -1 279
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 75 102 S 1 0 0 1 720 0 2
+Refer: 6 76 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" L f
+EndChar
+
+StartChar: L_t
+Encoding: 346 -1 280
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 59 116 S 1 0 0 1 720 0 2
+Refer: 6 76 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" L t
+EndChar
+
+StartChar: L_y
+Encoding: 347 -1 281
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 79 121 S 1 0 0 1 960 0 2
+Refer: 6 76 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" L y
+EndChar
+
+StartChar: m_T
+Encoding: 348 -1 282
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 960 0 2
+Refer: 68 109 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" m T
+EndChar
+
+StartChar: m_Y
+Encoding: 349 -1 283
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 960 0 2
+Refer: 68 109 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" m Y
+EndChar
+
+StartChar: n_T
+Encoding: 350 -1 284
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 960 0 2
+Refer: 69 110 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" n T
+EndChar
+
+StartChar: n_Y
+Encoding: 351 -1 285
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 960 0 2
+Refer: 69 110 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" n Y
+EndChar
+
+StartChar: o_T
+Encoding: 352 -1 286
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 960 0 2
+Refer: 63 111 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" o T
+EndChar
+
+StartChar: o_Y
+Encoding: 353 -1 287
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 960 0 2
+Refer: 63 111 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" o Y
+EndChar
+
+StartChar: P_e
+Encoding: 354 -1 288
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 1152 0 2
+Refer: 8 80 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" P e
+EndChar
+
+StartChar: P_j
+Encoding: 355 -1 289
+Width: 1760
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 S 1 0 0 1 960 0 2
+Refer: 8 80 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" P j
+EndChar
+
+StartChar: P_x
+Encoding: 356 -1 290
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 S 1 0 0 1 960 0 2
+Refer: 8 80 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" P x
+EndChar
+
+StartChar: p_T
+Encoding: 357 -1 291
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 960 0 2
+Refer: 64 112 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" p T
+EndChar
+
+StartChar: p_Y
+Encoding: 358 -1 292
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 960 0 2
+Refer: 64 112 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" p Y
+EndChar
+
+StartChar: Q_e
+Encoding: 359 -1 293
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 1152 0 2
+Refer: 15 81 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Q e
+EndChar
+
+StartChar: Q_j
+Encoding: 360 -1 294
+Width: 1952
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 S 1 0 0 1 1152 0 2
+Refer: 15 81 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Q j
+EndChar
+
+StartChar: Q_x
+Encoding: 361 -1 295
+Width: 2260
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 N 1 0 0 1 980 0 2
+Refer: 15 81 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Q x
+EndChar
+
+StartChar: Q_y
+Encoding: 362 -1 296
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 79 121 N 1 0 0 1 1152 0 2
+Refer: 15 81 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Q y
+EndChar
+
+StartChar: q_T
+Encoding: 363 -1 297
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 960 0 2
+Refer: 65 113 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" q T
+EndChar
+
+StartChar: q_Y
+Encoding: 364 -1 298
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 960 0 2
+Refer: 65 113 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" q Y
+EndChar
+
+StartChar: R_e
+Encoding: 365 -1 299
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 1152 0 2
+Refer: 37 82 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" R e
+EndChar
+
+StartChar: R_j
+Encoding: 366 -1 300
+Width: 1760
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 S 1 0 0 1 960 0 2
+Refer: 37 82 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" R j
+EndChar
+
+StartChar: R_x
+Encoding: 367 -1 301
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 N 1 0 0 1 960 0 2
+Refer: 37 82 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" R x
+EndChar
+
+StartChar: r_I
+Encoding: 368 -1 302
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 5 73 S 1 0 0 1 960 0 2
+Refer: 70 114 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" r I
+EndChar
+
+StartChar: r_J
+Encoding: 369 -1 303
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 13 74 S 1 0 0 1 960 0 2
+Refer: 70 114 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" r J
+EndChar
+
+StartChar: r_T
+Encoding: 370 -1 304
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 960 0 2
+Refer: 70 114 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" r T
+EndChar
+
+StartChar: r_X
+Encoding: 371 -1 305
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 22 88 S 1 0 0 1 960 0 2
+Refer: 70 114 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" r X
+EndChar
+
+StartChar: r_Y
+Encoding: 372 -1 306
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 960 0 2
+Refer: 70 114 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" r Y
+EndChar
+
+StartChar: r_Z
+Encoding: 373 -1 307
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 18 90 S 1 0 0 1 960 0 2
+Refer: 70 114 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" r Z
+EndChar
+
+StartChar: r_e
+Encoding: 374 -1 308
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 1152 0 2
+Refer: 70 114 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" r e
+EndChar
+
+StartChar: r_j
+Encoding: 375 -1 309
+Width: 1760
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 S 1 0 0 1 960 0 2
+Refer: 70 114 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" r j
+EndChar
+
+StartChar: r_x
+Encoding: 376 -1 310
+Width: 2019
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 N 1 0 0 1 739 0 2
+Refer: 70 114 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" r x
+EndChar
+
+StartChar: S_J
+Encoding: 377 -1 311
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 13 74 N 1 0 0 1 960 0 2
+Refer: 16 83 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" S J
+EndChar
+
+StartChar: S_e
+Encoding: 378 -1 312
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 1152 0 2
+Refer: 16 83 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" S e
+EndChar
+
+StartChar: S_j
+Encoding: 379 -1 313
+Width: 1760
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 S 1 0 0 1 960 0 2
+Refer: 16 83 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" S j
+EndChar
+
+StartChar: S_x
+Encoding: 380 -1 314
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 S 1 0 0 1 960 0 2
+Refer: 16 83 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" S x
+EndChar
+
+StartChar: s_T
+Encoding: 381 -1 315
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 960 0 2
+Refer: 76 115 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" s T
+EndChar
+
+StartChar: s_Y
+Encoding: 382 -1 316
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 960 0 2
+Refer: 76 115 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" s Y
+EndChar
+
+StartChar: T_C
+Encoding: 383 -1 317
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1 67 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T C
+EndChar
+
+StartChar: T_a
+Encoding: 384 -1 318
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 67 97 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T a
+EndChar
+
+StartChar: T_c
+Encoding: 385 -1 319
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 72 99 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T c
+EndChar
+
+StartChar: T_d
+Encoding: 386 -1 320
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 73 100 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T d
+EndChar
+
+StartChar: T_e
+Encoding: 387 -1 321
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T e
+EndChar
+
+StartChar: T_f
+Encoding: 388 -1 322
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 75 102 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T f
+EndChar
+
+StartChar: T_g
+Encoding: 389 -1 323
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 62 103 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T g
+EndChar
+
+StartChar: T_i
+Encoding: 390 -1 324
+Width: 1472
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 55 105 S 1 0 0 1 1152 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T i
+EndChar
+
+StartChar: T_j
+Encoding: 391 -1 325
+Width: 1760
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T j
+EndChar
+
+StartChar: T_m
+Encoding: 392 -1 326
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 68 109 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T m
+EndChar
+
+StartChar: T_n
+Encoding: 393 -1 327
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 69 110 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T n
+EndChar
+
+StartChar: T_o
+Encoding: 394 -1 328
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 63 111 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T o
+EndChar
+
+StartChar: T_p
+Encoding: 395 -1 329
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 64 112 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T p
+EndChar
+
+StartChar: T_q
+Encoding: 396 -1 330
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 65 113 N 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T q
+EndChar
+
+StartChar: T_r
+Encoding: 397 -1 331
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 70 114 N 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T r
+EndChar
+
+StartChar: T_s
+Encoding: 398 -1 332
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 76 115 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T s
+EndChar
+
+StartChar: T_t
+Encoding: 399 -1 333
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 59 116 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T t
+EndChar
+
+StartChar: T_u
+Encoding: 400 -1 334
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 66 117 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T u
+EndChar
+
+StartChar: T_v
+Encoding: 401 -1 335
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 78 118 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T v
+EndChar
+
+StartChar: T_w
+Encoding: 402 -1 336
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 82 119 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T w
+EndChar
+
+StartChar: T_x
+Encoding: 403 -1 337
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 S 1 0 0 1 720 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T x
+EndChar
+
+StartChar: T_y
+Encoding: 404 -1 338
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 79 121 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T y
+EndChar
+
+StartChar: T_z
+Encoding: 405 -1 339
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 80 122 S 1 0 0 1 960 0 2
+Refer: 9 84 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T z
+EndChar
+
+StartChar: t_I
+Encoding: 406 -1 340
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 5 73 S 1 0 0 1 960 0 2
+Refer: 59 116 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t I
+EndChar
+
+StartChar: t_J
+Encoding: 407 -1 341
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 13 74 S 1 0 0 1 960 0 2
+Refer: 59 116 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t J
+EndChar
+
+StartChar: t_T
+Encoding: 408 -1 342
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 960 0 2
+Refer: 59 116 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t T
+EndChar
+
+StartChar: t_X
+Encoding: 409 -1 343
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 22 88 S 1 0 0 1 960 0 2
+Refer: 59 116 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t X
+EndChar
+
+StartChar: t_Y
+Encoding: 410 -1 344
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 960 0 2
+Refer: 59 116 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t Y
+EndChar
+
+StartChar: t_Z
+Encoding: 411 -1 345
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 18 90 S 1 0 0 1 960 0 2
+Refer: 59 116 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t Z
+EndChar
+
+StartChar: t_e
+Encoding: 412 -1 346
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 1152 0 2
+Refer: 59 116 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t e
+EndChar
+
+StartChar: t_j
+Encoding: 413 -1 347
+Width: 1760
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 S 1 0 0 1 960 0 2
+Refer: 59 116 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t j
+EndChar
+
+StartChar: t_x
+Encoding: 414 -1 348
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 S 1 0 0 1 960 0 2
+Refer: 59 116 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t x
+EndChar
+
+StartChar: u_T
+Encoding: 415 -1 349
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 960 0 2
+Refer: 66 117 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" u T
+EndChar
+
+StartChar: u_Y
+Encoding: 416 -1 350
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 960 0 2
+Refer: 66 117 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" u Y
+EndChar
+
+StartChar: V_C
+Encoding: 417 -1 351
+Width: 2242
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1 67 S 1 0 0 1 962 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V C
+EndChar
+
+StartChar: V_a
+Encoding: 418 -1 352
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 67 97 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V a
+EndChar
+
+StartChar: V_c
+Encoding: 419 -1 353
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 72 99 N 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V c
+EndChar
+
+StartChar: V_d
+Encoding: 420 -1 354
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 73 100 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V d
+EndChar
+
+StartChar: V_e
+Encoding: 421 -1 355
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 720 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V e
+EndChar
+
+StartChar: V_f
+Encoding: 422 -1 356
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 75 102 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V f
+EndChar
+
+StartChar: V_g
+Encoding: 423 -1 357
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 62 103 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V g
+EndChar
+
+StartChar: V_j
+Encoding: 424 -1 358
+Width: 1520
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 S 1 0 0 1 720 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V j
+EndChar
+
+StartChar: V_m
+Encoding: 425 -1 359
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 68 109 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V m
+EndChar
+
+StartChar: V_n
+Encoding: 426 -1 360
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 69 110 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V n
+EndChar
+
+StartChar: V_o
+Encoding: 427 -1 361
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 63 111 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V o
+EndChar
+
+StartChar: V_p
+Encoding: 428 -1 362
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 64 112 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V p
+EndChar
+
+StartChar: V_q
+Encoding: 429 -1 363
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 65 113 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V q
+EndChar
+
+StartChar: V_r
+Encoding: 430 -1 364
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 70 114 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V r
+EndChar
+
+StartChar: V_s
+Encoding: 431 -1 365
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 76 115 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V s
+EndChar
+
+StartChar: V_t
+Encoding: 432 -1 366
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 59 116 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V t
+EndChar
+
+StartChar: V_v
+Encoding: 433 -1 367
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 78 118 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V v
+EndChar
+
+StartChar: V_w
+Encoding: 434 -1 368
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 82 119 N 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V w
+EndChar
+
+StartChar: V_x
+Encoding: 435 -1 369
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 S 1 0 0 1 720 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V x
+EndChar
+
+StartChar: V_y
+Encoding: 436 -1 370
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 79 121 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V y
+EndChar
+
+StartChar: V_z
+Encoding: 437 -1 371
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 80 122 S 1 0 0 1 960 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V z
+EndChar
+
+StartChar: V_X
+Encoding: 438 -1 372
+Width: 2214
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 22 88 N 1 0 0 1 934 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V X
+EndChar
+
+StartChar: V_Y
+Encoding: 439 -1 373
+Width: 2214
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 934 0 2
+Refer: 19 86 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V Y
+EndChar
+
+StartChar: v_C
+Encoding: 440 -1 374
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1 67 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v C
+EndChar
+
+StartChar: v_X
+Encoding: 441 -1 375
+Width: 2214
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 22 88 S 1 0 0 1 934 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v X
+EndChar
+
+StartChar: v_Y
+Encoding: 442 -1 376
+Width: 2214
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 N 1 0 0 1 934 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v Y
+EndChar
+
+StartChar: v_a
+Encoding: 443 -1 377
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 67 97 N 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v a
+EndChar
+
+StartChar: v_c
+Encoding: 444 -1 378
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 72 99 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v c
+EndChar
+
+StartChar: v_d
+Encoding: 445 -1 379
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 73 100 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v d
+EndChar
+
+StartChar: v_e
+Encoding: 446 -1 380
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 720 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v e
+EndChar
+
+StartChar: v_f
+Encoding: 447 -1 381
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 75 102 N 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v f
+EndChar
+
+StartChar: v_g
+Encoding: 448 -1 382
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 62 103 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v g
+EndChar
+
+StartChar: v_j
+Encoding: 449 -1 383
+Width: 1520
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 N 1 0 0 1 720 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v j
+EndChar
+
+StartChar: v_m
+Encoding: 450 -1 384
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 68 109 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v m
+EndChar
+
+StartChar: v_n
+Encoding: 451 -1 385
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 69 110 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v n
+EndChar
+
+StartChar: v_o
+Encoding: 452 -1 386
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 63 111 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v o
+EndChar
+
+StartChar: v_p
+Encoding: 453 -1 387
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 64 112 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v p
+EndChar
+
+StartChar: v_q
+Encoding: 454 -1 388
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 65 113 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v q
+EndChar
+
+StartChar: v_r
+Encoding: 455 -1 389
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 70 114 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v r
+EndChar
+
+StartChar: v_s
+Encoding: 456 -1 390
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 76 115 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v s
+EndChar
+
+StartChar: v_t
+Encoding: 457 -1 391
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 59 116 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v t
+EndChar
+
+StartChar: v_u
+Encoding: 458 -1 392
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 66 117 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v u
+EndChar
+
+StartChar: v_v
+Encoding: 459 -1 393
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 78 118 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v v
+EndChar
+
+StartChar: v_w
+Encoding: 460 -1 394
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 82 119 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v w
+EndChar
+
+StartChar: v_x
+Encoding: 461 -1 395
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 S 1 0 0 1 720 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v x
+EndChar
+
+StartChar: v_y
+Encoding: 462 -1 396
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 79 121 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v y
+EndChar
+
+StartChar: v_z
+Encoding: 463 -1 397
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 80 122 S 1 0 0 1 960 0 2
+Refer: 78 118 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v z
+EndChar
+
+StartChar: w_T
+Encoding: 464 -1 398
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 960 0 2
+Refer: 82 119 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" w T
+EndChar
+
+StartChar: w_Y
+Encoding: 465 -1 399
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 N 1 0 0 1 960 0 2
+Refer: 82 119 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" w Y
+EndChar
+
+StartChar: X_e
+Encoding: 466 -1 400
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 1152 0 2
+Refer: 22 88 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" X e
+EndChar
+
+StartChar: X_f
+Encoding: 467 -1 401
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 75 102 S 1 0 0 1 960 0 2
+Refer: 22 88 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" X f
+EndChar
+
+StartChar: X_t
+Encoding: 468 -1 402
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 59 116 S 1 0 0 1 960 0 2
+Refer: 22 88 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" X t
+EndChar
+
+StartChar: X_x
+Encoding: 469 -1 403
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 N 1 0 0 1 960 0 2
+Refer: 22 88 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" X x
+EndChar
+
+StartChar: X_y
+Encoding: 470 -1 404
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 79 121 N 1 0 0 1 960 0 2
+Refer: 22 88 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" X y
+EndChar
+
+StartChar: x_I
+Encoding: 471 -1 405
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 5 73 S 1 0 0 1 960 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x I
+EndChar
+
+StartChar: x_J
+Encoding: 472 -1 406
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 13 74 S 1 0 0 1 960 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x J
+EndChar
+
+StartChar: x_T
+Encoding: 473 -1 407
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 720 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x T
+EndChar
+
+StartChar: x_X
+Encoding: 474 -1 408
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 22 88 N 1 0 0 1 960 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x X
+EndChar
+
+StartChar: x_Y
+Encoding: 475 -1 409
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 960 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x Y
+EndChar
+
+StartChar: x_Z
+Encoding: 476 -1 410
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 18 90 S 1 0 0 1 960 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x Z
+EndChar
+
+StartChar: x_a
+Encoding: 477 -1 411
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 67 97 N 1 0 0 1 960 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x a
+EndChar
+
+StartChar: x_e
+Encoding: 478 -1 412
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 1152 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x e
+EndChar
+
+StartChar: x_f
+Encoding: 479 -1 413
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 75 102 S 1 0 0 1 960 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x f
+EndChar
+
+StartChar: x_j
+Encoding: 480 -1 414
+Width: 1760
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 N 1 0 0 1 960 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x j
+EndChar
+
+StartChar: x_t
+Encoding: 481 -1 415
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 59 116 S 1 0 0 1 960 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x t
+EndChar
+
+StartChar: x_x
+Encoding: 482 -1 416
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 S 1 0 0 1 960 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x x
+EndChar
+
+StartChar: x_y
+Encoding: 483 -1 417
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 79 121 S 1 0 0 1 960 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x y
+EndChar
+
+StartChar: x_z
+Encoding: 484 -1 418
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 80 122 S 1 0 0 1 960 0 2
+Refer: 83 120 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x z
+EndChar
+
+StartChar: X_C
+Encoding: 485 -1 419
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1 67 S 1 0 0 1 1152 0 2
+Refer: 22 88 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" X C
+EndChar
+
+StartChar: Y_C
+Encoding: 486 -1 420
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1 67 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y C
+LCarets2: 1 0
+EndChar
+
+StartChar: Y_a
+Encoding: 487 -1 421
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 67 97 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y a
+EndChar
+
+StartChar: Y_c
+Encoding: 488 -1 422
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 72 99 N 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y c
+EndChar
+
+StartChar: Y_d
+Encoding: 489 -1 423
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 73 100 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y d
+EndChar
+
+StartChar: Y_e
+Encoding: 490 -1 424
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y e
+EndChar
+
+StartChar: Y_f
+Encoding: 491 -1 425
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 75 102 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y f
+EndChar
+
+StartChar: Y_g
+Encoding: 492 -1 426
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 62 103 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y g
+EndChar
+
+StartChar: Y_j
+Encoding: 493 -1 427
+Width: 1760
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y j
+EndChar
+
+StartChar: Y_m
+Encoding: 494 -1 428
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 68 109 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y m
+EndChar
+
+StartChar: Y_n
+Encoding: 495 -1 429
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 69 110 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y n
+EndChar
+
+StartChar: Y_o
+Encoding: 496 -1 430
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 63 111 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y o
+EndChar
+
+StartChar: Y_p
+Encoding: 497 -1 431
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 64 112 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y p
+EndChar
+
+StartChar: Y_q
+Encoding: 498 -1 432
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 65 113 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y q
+EndChar
+
+StartChar: Y_r
+Encoding: 499 -1 433
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 70 114 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y r
+EndChar
+
+StartChar: Y_s
+Encoding: 500 -1 434
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 76 115 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y s
+EndChar
+
+StartChar: Y_t
+Encoding: 501 -1 435
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 59 116 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y t
+EndChar
+
+StartChar: Y_u
+Encoding: 502 -1 436
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 66 117 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y u
+EndChar
+
+StartChar: Y_v
+Encoding: 503 -1 437
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 78 118 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y v
+EndChar
+
+StartChar: Y_w
+Encoding: 504 -1 438
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 82 119 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y w
+EndChar
+
+StartChar: Y_x
+Encoding: 505 -1 439
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 S 1 0 0 1 720 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y x
+EndChar
+
+StartChar: Y_y
+Encoding: 506 -1 440
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 79 121 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y y
+EndChar
+
+StartChar: Y_z
+Encoding: 507 -1 441
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 80 122 S 1 0 0 1 960 0 2
+Refer: 23 89 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y z
+EndChar
+
+StartChar: y_I
+Encoding: 508 -1 442
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 5 73 S 1 0 0 1 960 0 2
+Refer: 79 121 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" y I
+EndChar
+
+StartChar: y_J
+Encoding: 509 -1 443
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 13 74 S 1 0 0 1 960 0 2
+Refer: 79 121 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" y J
+EndChar
+
+StartChar: y_T
+Encoding: 510 -1 444
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 960 0 2
+Refer: 79 121 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" y T
+EndChar
+
+StartChar: y_X
+Encoding: 511 -1 445
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 22 88 S 1 0 0 1 960 0 2
+Refer: 79 121 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" y X
+EndChar
+
+StartChar: y_Y
+Encoding: 512 -1 446
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 960 0 2
+Refer: 79 121 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" y Y
+EndChar
+
+StartChar: y_Z
+Encoding: 513 -1 447
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 18 90 S 1 0 0 1 960 0 2
+Refer: 79 121 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" y Z
+EndChar
+
+StartChar: y_e
+Encoding: 514 -1 448
+Width: 2432
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 101 S 1 0 0 1 1152 0 2
+Refer: 79 121 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" y e
+EndChar
+
+StartChar: y_j
+Encoding: 515 -1 449
+Width: 1760
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 106 S 1 0 0 1 960 0 2
+Refer: 79 121 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" y j
+EndChar
+
+StartChar: y_x
+Encoding: 516 -1 450
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 S 1 0 0 1 960 0 2
+Refer: 79 121 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" y x
+EndChar
+
+StartChar: Z_f
+Encoding: 517 -1 451
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 75 102 S 1 0 0 1 960 0 2
+Refer: 18 90 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Z f
+EndChar
+
+StartChar: Z_t
+Encoding: 518 -1 452
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 59 116 S 1 0 0 1 960 0 2
+Refer: 18 90 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Z t
+EndChar
+
+StartChar: Z_x
+Encoding: 519 -1 453
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 S 1 0 0 1 960 0 2
+Refer: 18 90 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Z x
+EndChar
+
+StartChar: Z_y
+Encoding: 520 -1 454
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 79 121 S 1 0 0 1 960 0 2
+Refer: 18 90 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Z y
+EndChar
+
+StartChar: z_T
+Encoding: 521 -1 455
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 9 84 S 1 0 0 1 720 0 2
+Refer: 80 122 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" z T
+LCarets2: 1 0
+EndChar
+
+StartChar: z_U
+Encoding: 522 -1 456
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 17 85 S 1 0 0 1 960 0 2
+Refer: 80 122 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" z U
+LCarets2: 1 0
+EndChar
+
+StartChar: z_Y
+Encoding: 523 -1 457
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 23 89 S 1 0 0 1 720 0 2
+Refer: 80 122 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" z Y
+EndChar
+
+StartChar: z_f
+Encoding: 524 -1 458
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 75 102 S 1 0 0 1 720 0 2
+Refer: 80 122 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" z f
+EndChar
+
+StartChar: z_t
+Encoding: 525 -1 459
+Width: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 59 116 S 1 0 0 1 720 0 2
+Refer: 80 122 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" z t
+EndChar
+
+StartChar: z_x
+Encoding: 526 -1 460
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 83 120 S 1 0 0 1 960 0 2
+Refer: 80 122 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" z x
+EndChar
+
+StartChar: z_y
+Encoding: 527 -1 461
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 79 121 S 1 0 0 1 960 0 2
+Refer: 80 122 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" z y
 EndChar
 EndChars
 EndSplineFont
