@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1641319146
+ModificationTime: 1641328136
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -46,8 +46,8 @@ Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard L
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "Light Kerning" [307,30,4] "'kern' Horizontal Kerning in Latin lookup 0-1" [307,30,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 33 35 "'kern' Horizontal Kerning in Latin lookup 0-1"
- 1 a
+KernClass2: 44 40 "'kern' Horizontal Kerning in Latin lookup 0-1"
+ 57 a agrave aacute acircumflex atilde adieresis aring ae x_a
  1 B
  1 b
  1 C
@@ -56,13 +56,13 @@ KernClass2: 33 35 "'kern' Horizontal Kerning in Latin lookup 0-1"
  1 E
  1 e
  1 F
- 1 f
+ 9 f t_f x_f
  1 G
  1 g
  1 h
- 1 I
+ 9 I S_I T_I
  1 i
- 1 J
+ 30 J S_J T_J V_J v_J Y_J Yacute_J
  1 j
  1 K
  1 k
@@ -78,24 +78,37 @@ KernClass2: 33 35 "'kern' Horizontal Kerning in Latin lookup 0-1"
  1 r
  1 S
  1 s
- 1 T
+ 30 T S_T T_T V_T v_T Y_T Yacute_T
+ 21 plus t t_t x_t x_plus
+ 1 u
+ 35 ugrave uacute ucircumflex udieresis
+ 3 V v
+ 1 w
+ 26 X multiply S_X T_X V_X v_X
+ 21 x Q_x r_x X_x Z_x z_x
+ 42 Y Yacute S_Y T_Y V_Y v_Y V_Yacute v_Yacute
+ 68 y yacute ydieresis t_y t_yacute t_ydieresis x_y x_yacute x_ydieresis
+ 30 Z T_Z S_Z V_Z v_Z Y_Z Yacute_Z
+ 9 z t_z x_z
  1 a
  51 agrave aacute acircumflex atilde adieresis aring ae
- 1 C
+ 10 C Ccedilla
  1 c
- 1 d
+ 5 d eth
  1 e
  35 egrave eacute ecircumflex edieresis
  1 f
  1 g
  1 I
+ 35 Igrave Iacute Icircumflex Idieresis
  1 i
  35 igrave iacute icircumflex idieresis
  1 J
  1 j
  1 m
  1 n
- 1 o
+ 8 o oslash
+ 42 ograve oacute ocircumflex otilde odieresis
  1 p
  1 q
  1 r
@@ -103,7 +116,9 @@ KernClass2: 33 35 "'kern' Horizontal Kerning in Latin lookup 0-1"
  1 T
  6 plus t
  1 U
+ 35 Ugrave Uacute Ucircumflex Udieresis
  1 u
+ 35 ugrave uacute ucircumflex udieresis
  1 v
  1 w
  10 X multiply
@@ -113,7 +128,8 @@ KernClass2: 33 35 "'kern' Horizontal Kerning in Latin lookup 0-1"
  16 yacute ydieresis
  1 Z
  1 z
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -80 {} -80 {} 0 {} -560 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -560 {} -560 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -80 {} -80 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -560 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} -320 {} 0 {} -80 {} -80 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {}
+ 0 
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} -80 {} -80 {} 0 {} -560 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -560 {} -560 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} -80 {} -80 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -560 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} -80 {} -80 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} -80 {} -80 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} -320 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {}
 LangName: 1033 "" "" "" "" "" "" "" "" "" "WeirdoOnTheBus" "" "" "https://weirdoonthebus.com" "Copyright (c) 2022, WeirdoOnTheBus (weirdoonthebus@gmail.com),+AAoA-with Reserved Font Name Kepler452b-Regular.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "Kepler452b" "Regular" "" "" "" "Kepler452b" "Regular"
 Encoding: Custom
 UnicodeInterp: none
@@ -121,7 +137,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 144 18 7
+WinInfo: 198 18 7
 BeginPrivate: 3
 StdVW 4 [44]
 StdHW 4 [44]
@@ -185,7 +201,7 @@ Grid
 128 2527 m 0
  128 -1569 l 1024
 EndSplineSet
-BeginChars: 270 204
+BeginChars: 307 239
 
 StartChar: A
 Encoding: 65 65 0
@@ -5751,6 +5767,1212 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" S Z
+EndChar
+
+StartChar: t_f
+Encoding: 270 -1 204
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1568 0 m 25
+ 1568 480 l 1
+ 672 480 l 1
+ 672 0 l 1
+ 608 0 l 1
+ 608 480 l 1
+ 128 480 l 1
+ 128 544 l 1
+ 608 544 l 1
+ 608 1024 l 1
+ 672 1024 l 1
+ 672 544 l 9
+ 1568 544 l 1
+ 1568 1024 l 25
+ 2112 1024 l 25
+ 2112 960 l 25
+ 1632 960 l 25
+ 1632 544 l 25
+ 2112 544 l 25
+ 2112 480 l 25
+ 1632 480 l 25
+ 1632 0 l 25
+ 1568 0 l 25
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t f
+LCarets2: 1 0
+EndChar
+
+StartChar: t_t
+Encoding: 271 -1 205
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1568 0 m 25
+ 1568 480 l 1
+ 672 480 l 1
+ 672 0 l 1
+ 608 0 l 1
+ 608 480 l 1
+ 128 480 l 1
+ 128 544 l 1
+ 608 544 l 1
+ 608 1024 l 1
+ 672 1024 l 1
+ 672 544 l 9
+ 1568 544 l 1
+ 1568 1024 l 25
+ 1632 1024 l 25
+ 1632 544 l 25
+ 2112 544 l 25
+ 2112 480 l 25
+ 1632 480 l 25
+ 1632 0 l 25
+ 1568 0 l 25
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t t
+LCarets2: 1 0
+EndChar
+
+StartChar: t_y
+Encoding: 272 -1 206
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1107 480 m 5
+ 672 480 l 5
+ 672 0 l 5
+ 608 0 l 5
+ 608 480 l 5
+ 128 480 l 5
+ 128 544 l 5
+ 608 544 l 5
+ 608 1024 l 5
+ 672 1024 l 5
+ 672 544 l 5
+ 1133 544 l 5
+ 1600 77 l 5
+ 2067 544 l 5
+ 2112 499 l 5
+ 1133 -480 l 5
+ 1088 -435 l 5
+ 1555 32 l 5
+ 1107 480 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t y
+EndChar
+
+StartChar: t_yacute
+Encoding: 273 -1 207
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1707 1024 m 1
+ 1752 979 l 1
+ 1495 720 l 1
+ 1450 765 l 1
+ 1707 1024 l 1
+1107 480 m 5
+ 672 480 l 1
+ 672 0 l 1
+ 608 0 l 1
+ 608 480 l 1
+ 128 480 l 1
+ 128 544 l 1
+ 608 544 l 1
+ 608 1024 l 1
+ 672 1024 l 1
+ 672 544 l 1
+ 1133 544 l 1
+ 1600 77 l 1
+ 2067 544 l 1
+ 2112 499 l 1
+ 1133 -480 l 1
+ 1088 -435 l 1
+ 1555 32 l 1
+ 1107 480 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t yacute
+EndChar
+
+StartChar: t_ydieresis
+Encoding: 274 -1 208
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1107 480 m 1
+ 672 480 l 1
+ 672 0 l 1
+ 608 0 l 1
+ 608 480 l 1
+ 128 480 l 1
+ 128 544 l 1
+ 608 544 l 1
+ 608 1024 l 1
+ 672 1024 l 1
+ 672 544 l 1
+ 1133 544 l 1
+ 1600 77 l 1
+ 2067 544 l 1
+ 2112 499 l 1
+ 1133 -480 l 1
+ 1088 -435 l 1
+ 1555 32 l 1
+ 1107 480 l 1
+1872 848 m 1
+ 1872 720 l 1
+ 1808 720 l 1
+ 1808 848 l 1
+ 1872 848 l 1
+1392 848 m 1
+ 1392 720 l 1
+ 1328 720 l 1
+ 1328 848 l 1
+ 1392 848 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t ydieresis
+EndChar
+
+StartChar: t_z
+Encoding: 275 -1 209
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1632 544 m 25
+ 1632 499 l 1
+ 1197 64 l 25
+ 2112 64 l 1
+ 2112 0 l 25
+ 1088 0 l 1
+ 1088 45 l 1
+ 1523 480 l 1
+ 672 480 l 1
+ 672 0 l 1
+ 608 0 l 1
+ 608 480 l 1
+ 128 480 l 1
+ 128 544 l 1
+ 608 544 l 1
+ 608 1024 l 1
+ 672 1024 l 1
+ 672 544 l 1
+ 1632 544 l 25
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t z
+EndChar
+
+StartChar: V_J
+Encoding: 276 -1 210
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1568 461 m 5
+ 1171 64 l 5
+ 1568 64 l 5
+ 1568 461 l 5
+1107 1024 m 5
+ 2112 1024 l 29
+ 2112 960 l 29
+ 1632 960 l 29
+ 1632 0 l 29
+ 1088 0 l 5
+ 1088 64 l 5
+ 1568 544 l 5
+ 1568 960 l 5
+ 1133 960 l 5
+ 173 0 l 5
+ 128 0 l 5
+ 128 1024 l 5
+ 192 1024 l 5
+ 192 109 l 5
+ 1107 1024 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V J
+EndChar
+
+StartChar: v_J
+Encoding: 277 -1 211
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1568 461 m 1
+ 1171 64 l 1
+ 1568 64 l 1
+ 1568 461 l 1
+1107 1024 m 1
+ 2112 1024 l 25
+ 2112 960 l 25
+ 1632 960 l 25
+ 1632 0 l 25
+ 1088 0 l 1
+ 1088 64 l 1
+ 1568 544 l 1
+ 1568 960 l 1
+ 1133 960 l 1
+ 173 0 l 1
+ 128 0 l 1
+ 128 544 l 5
+ 192 544 l 5
+ 192 109 l 1
+ 1107 1024 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v J
+EndChar
+
+StartChar: V_T
+Encoding: 278 -1 212
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1107 1024 m 5
+ 2112 1024 l 29
+ 2112 960 l 29
+ 1632 960 l 29
+ 1632 0 l 29
+ 1568 0 l 29
+ 1568 960 l 29
+ 1133 960 l 5
+ 173 0 l 5
+ 128 0 l 5
+ 128 1024 l 5
+ 192 1024 l 5
+ 192 109 l 5
+ 1107 1024 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V T
+EndChar
+
+StartChar: v_T
+Encoding: 279 -1 213
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1107 1024 m 1
+ 2112 1024 l 25
+ 2112 960 l 25
+ 1632 960 l 25
+ 1632 0 l 25
+ 1568 0 l 25
+ 1568 960 l 25
+ 1133 960 l 1
+ 173 0 l 1
+ 128 0 l 1
+ 128 544 l 5
+ 192 544 l 5
+ 192 109 l 1
+ 1107 1024 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v T
+EndChar
+
+StartChar: V_X
+Encoding: 280 -1 214
+Width: 2244
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1125 942 m 5
+ 183 0 l 5
+ 128 0 l 5
+ 128 1024 l 5
+ 192 1024 l 5
+ 192 109 l 5
+ 1121 1036 l 5
+ 1600 557 l 5
+ 2067 1024 l 5
+ 2112 979 l 5
+ 1645 512 l 5
+ 2112 45 l 5
+ 2067 0 l 5
+ 1600 467 l 5
+ 1133 0 l 5
+ 1088 45 l 5
+ 1555 512 l 5
+ 1125 942 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V X
+EndChar
+
+StartChar: v_X
+Encoding: 281 -1 215
+Width: 2244
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1125 942 m 1
+ 183 0 l 1
+ 128 0 l 1
+ 128 544 l 5
+ 192 544 l 5
+ 192 109 l 1
+ 1121 1036 l 1
+ 1600 557 l 1
+ 2067 1024 l 1
+ 2112 979 l 1
+ 1645 512 l 1
+ 2112 45 l 1
+ 2067 0 l 1
+ 1600 467 l 1
+ 1133 0 l 1
+ 1088 45 l 1
+ 1555 512 l 1
+ 1125 942 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v X
+EndChar
+
+StartChar: V_Y
+Encoding: 282 -1 216
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1120 947 m 5
+ 173 0 l 5
+ 128 0 l 5
+ 128 1024 l 5
+ 192 1024 l 5
+ 192 109 l 5
+ 1120 1037 l 5
+ 1600 557 l 5
+ 2067 1024 l 5
+ 2112 979 l 5
+ 1632 499 l 5
+ 1632 0 l 5
+ 1568 0 l 5
+ 1568 499 l 5
+ 1120 947 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V Y
+EndChar
+
+StartChar: v_Y
+Encoding: 283 -1 217
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1120 947 m 1
+ 173 0 l 1
+ 128 0 l 1
+ 128 544 l 5
+ 192 544 l 5
+ 192 109 l 1
+ 1120 1037 l 1
+ 1600 557 l 1
+ 2067 1024 l 1
+ 2112 979 l 1
+ 1632 499 l 1
+ 1632 0 l 1
+ 1568 0 l 1
+ 1568 499 l 1
+ 1120 947 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v Y
+EndChar
+
+StartChar: V_Yacute
+Encoding: 284 -1 218
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1120 947 m 5
+ 173 0 l 5
+ 128 0 l 5
+ 128 1024 l 5
+ 192 1024 l 5
+ 192 109 l 5
+ 1120 1037 l 5
+ 1600 557 l 5
+ 2067 1024 l 5
+ 2112 979 l 5
+ 1632 499 l 5
+ 1632 0 l 5
+ 1568 0 l 5
+ 1568 499 l 5
+ 1120 947 l 5
+1707 1504 m 5
+ 1752 1459 l 5
+ 1493 1200 l 5
+ 1448 1245 l 5
+ 1707 1504 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V Yacute
+EndChar
+
+StartChar: v_Yacute
+Encoding: 285 -1 219
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1120 947 m 1
+ 173 0 l 1
+ 128 0 l 1
+ 128 544 l 5
+ 192 544 l 5
+ 192 109 l 1
+ 1120 1037 l 1
+ 1600 557 l 1
+ 2067 1024 l 1
+ 2112 979 l 1
+ 1632 499 l 1
+ 1632 0 l 1
+ 1568 0 l 1
+ 1568 499 l 1
+ 1120 947 l 1
+1707 1504 m 1
+ 1752 1459 l 1
+ 1493 1200 l 1
+ 1448 1245 l 1
+ 1707 1504 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v Yacute
+EndChar
+
+StartChar: V_Z
+Encoding: 286 -1 220
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1107 1024 m 5
+ 2112 1024 l 5
+ 2112 979 l 5
+ 1197 64 l 29
+ 2112 64 l 5
+ 2112 0 l 29
+ 1088 0 l 29
+ 1088 45 l 5
+ 2003 960 l 29
+ 1133 960 l 5
+ 173 0 l 5
+ 128 0 l 5
+ 128 1024 l 5
+ 192 1024 l 5
+ 192 109 l 5
+ 1107 1024 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" V Z
+EndChar
+
+StartChar: v_Z
+Encoding: 287 -1 221
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1107 1024 m 1
+ 2112 1024 l 1
+ 2112 979 l 1
+ 1197 64 l 25
+ 2112 64 l 1
+ 2112 0 l 25
+ 1088 0 l 25
+ 1088 45 l 1
+ 2003 960 l 25
+ 1133 960 l 1
+ 173 0 l 1
+ 128 0 l 1
+ 128 544 l 5
+ 192 544 l 5
+ 192 109 l 1
+ 1107 1024 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" v Z
+EndChar
+
+StartChar: X_x
+Encoding: 288 -1 222
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1328 499 m 1
+ 1373 544 l 1
+ 1600 317 l 1
+ 1827 544 l 1
+ 2112 544 l 1
+ 2112 480 l 1
+ 1853 480 l 1
+ 1645 272 l 1
+ 1872 45 l 1
+ 1827 0 l 1
+ 1600 227 l 1
+ 1373 0 l 1
+ 1107 0 l 1
+ 640 467 l 1
+ 173 0 l 1
+ 128 45 l 1
+ 595 512 l 1
+ 128 979 l 1
+ 173 1024 l 1
+ 640 557 l 1
+ 1107 1024 l 1
+ 1152 979 l 1
+ 685 512 l 1
+ 1133 64 l 1
+ 1347 64 l 1
+ 1555 272 l 1
+ 1328 499 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" X x
+EndChar
+
+StartChar: x_a
+Encoding: 289 -1 223
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+2048 240 m 1
+ 1152 240 l 1
+ 1152 64 l 1
+ 2048 64 l 1
+ 2048 240 l 1
+368 499 m 1
+ 413 544 l 1
+ 640 317 l 1
+ 867 544 l 1
+ 2112 544 l 1
+ 2112 0 l 1
+ 1088 0 l 1
+ 1088 304 l 1
+ 2048 304 l 1
+ 2048 480 l 1
+ 893 480 l 1
+ 685 272 l 1
+ 912 45 l 1
+ 867 0 l 1
+ 640 227 l 1
+ 413 0 l 1
+ 128 0 l 1
+ 128 64 l 1
+ 387 64 l 1
+ 595 272 l 1
+ 368 499 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x a
+EndChar
+
+StartChar: x_f
+Encoding: 290 -1 224
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+368 499 m 5
+ 413 544 l 5
+ 640 317 l 5
+ 867 544 l 5
+ 1568 544 l 5
+ 1568 1024 l 5
+ 2112 1024 l 5
+ 2112 960 l 5
+ 1632 960 l 5
+ 1632 544 l 5
+ 2112 544 l 5
+ 2112 480 l 5
+ 1632 480 l 5
+ 1632 0 l 5
+ 1568 0 l 5
+ 1568 480 l 5
+ 893 480 l 5
+ 685 272 l 5
+ 912 45 l 5
+ 867 0 l 5
+ 640 227 l 5
+ 413 0 l 5
+ 128 0 l 5
+ 128 64 l 5
+ 387 64 l 5
+ 595 272 l 5
+ 368 499 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x f
+EndChar
+
+StartChar: x_t
+Encoding: 291 -1 225
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+368 499 m 5
+ 413 544 l 5
+ 640 317 l 5
+ 867 544 l 5
+ 1568 544 l 5
+ 1568 1024 l 5
+ 1632 1024 l 5
+ 1632 544 l 5
+ 2112 544 l 5
+ 2112 480 l 5
+ 1632 480 l 5
+ 1632 0 l 5
+ 1568 0 l 5
+ 1568 480 l 5
+ 893 480 l 5
+ 685 272 l 5
+ 912 45 l 5
+ 867 0 l 5
+ 640 227 l 5
+ 413 0 l 5
+ 128 0 l 5
+ 128 64 l 5
+ 387 64 l 5
+ 595 272 l 5
+ 368 499 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x t
+EndChar
+
+StartChar: x_plus
+Encoding: 292 -1 226
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+368 499 m 5
+ 413 544 l 5
+ 640 317 l 5
+ 867 544 l 5
+ 1568 544 l 5
+ 1568 1024 l 5
+ 1632 1024 l 5
+ 1632 544 l 5
+ 2112 544 l 5
+ 2112 480 l 5
+ 1632 480 l 5
+ 1632 0 l 5
+ 1568 0 l 5
+ 1568 480 l 5
+ 893 480 l 5
+ 685 272 l 5
+ 912 45 l 5
+ 867 0 l 5
+ 640 227 l 5
+ 413 0 l 5
+ 128 0 l 5
+ 128 64 l 5
+ 387 64 l 5
+ 595 272 l 5
+ 368 499 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x plus
+EndChar
+
+StartChar: x_y
+Encoding: 293 -1 227
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1107 480 m 5
+ 893 480 l 5
+ 685 272 l 5
+ 912 45 l 5
+ 867 0 l 5
+ 640 227 l 5
+ 413 0 l 5
+ 128 0 l 5
+ 128 64 l 5
+ 387 64 l 5
+ 595 272 l 5
+ 368 499 l 5
+ 413 544 l 5
+ 640 317 l 5
+ 867 544 l 5
+ 1133 544 l 5
+ 1600 77 l 5
+ 2067 544 l 5
+ 2112 499 l 5
+ 1133 -480 l 5
+ 1088 -435 l 5
+ 1555 32 l 5
+ 1107 480 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x y
+EndChar
+
+StartChar: x_yacute
+Encoding: 294 -1 228
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1107 480 m 5
+ 893 480 l 5
+ 685 272 l 5
+ 912 45 l 5
+ 867 0 l 5
+ 640 227 l 5
+ 413 0 l 5
+ 128 0 l 5
+ 128 64 l 5
+ 387 64 l 5
+ 595 272 l 5
+ 368 499 l 5
+ 413 544 l 5
+ 640 317 l 5
+ 867 544 l 5
+ 1133 544 l 5
+ 1600 77 l 5
+ 2067 544 l 5
+ 2112 499 l 5
+ 1133 -480 l 5
+ 1088 -435 l 5
+ 1555 32 l 5
+ 1107 480 l 5
+1707 1024 m 1
+ 1752 979 l 1
+ 1495 720 l 1
+ 1450 765 l 1
+ 1707 1024 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x yacute
+EndChar
+
+StartChar: x_ydieresis
+Encoding: 295 -1 229
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1107 480 m 5
+ 893 480 l 5
+ 685 272 l 5
+ 912 45 l 5
+ 867 0 l 5
+ 640 227 l 5
+ 413 0 l 5
+ 128 0 l 5
+ 128 64 l 5
+ 387 64 l 5
+ 595 272 l 5
+ 368 499 l 5
+ 413 544 l 5
+ 640 317 l 5
+ 867 544 l 5
+ 1133 544 l 5
+ 1600 77 l 5
+ 2067 544 l 5
+ 2112 499 l 5
+ 1133 -480 l 5
+ 1088 -435 l 5
+ 1555 32 l 5
+ 1107 480 l 5
+1872 848 m 1
+ 1872 720 l 1
+ 1808 720 l 1
+ 1808 848 l 1
+ 1872 848 l 1
+1392 848 m 1
+ 1392 720 l 1
+ 1328 720 l 1
+ 1328 848 l 1
+ 1392 848 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x ydieresis
+EndChar
+
+StartChar: x_z
+Encoding: 296 -1 230
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+368 499 m 1
+ 413 544 l 1
+ 640 317 l 1
+ 867 544 l 1
+ 1632 544 l 1
+ 1632 499 l 1
+ 1197 64 l 1
+ 2112 64 l 1
+ 2112 0 l 1
+ 1088 0 l 1
+ 1088 45 l 1
+ 1523 480 l 1
+ 893 480 l 1
+ 685 272 l 1
+ 912 45 l 1
+ 867 0 l 1
+ 640 227 l 1
+ 413 0 l 1
+ 128 0 l 1
+ 128 64 l 1
+ 387 64 l 1
+ 595 272 l 1
+ 368 499 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" x z
+EndChar
+
+StartChar: Y_J
+Encoding: 297 -1 231
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1568 461 m 5
+ 1171 64 l 5
+ 1568 64 l 5
+ 1568 461 l 5
+1107 1024 m 13
+ 2112 1024 l 5
+ 2112 960 l 29
+ 1632 960 l 29
+ 1632 0 l 29
+ 1088 0 l 5
+ 1088 64 l 5
+ 1568 544 l 5
+ 1568 960 l 5
+ 1133 960 l 5
+ 672 499 l 5
+ 672 0 l 5
+ 608 0 l 5
+ 608 499 l 5
+ 128 979 l 5
+ 173 1024 l 5
+ 640 557 l 5
+ 1107 1024 l 13
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y J
+LCarets2: 1 0
+EndChar
+
+StartChar: Yacute_J
+Encoding: 298 -1 232
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1568 461 m 5
+ 1171 64 l 5
+ 1568 64 l 5
+ 1568 461 l 5
+1107 1024 m 13
+ 2112 1024 l 5
+ 2112 960 l 29
+ 1632 960 l 29
+ 1632 0 l 29
+ 1088 0 l 5
+ 1088 64 l 5
+ 1568 544 l 5
+ 1568 960 l 5
+ 1133 960 l 5
+ 672 499 l 5
+ 672 0 l 5
+ 608 0 l 5
+ 608 499 l 5
+ 128 979 l 5
+ 173 1024 l 5
+ 640 557 l 5
+ 1107 1024 l 13
+747 1504 m 1
+ 792 1459 l 1
+ 533 1200 l 1
+ 488 1245 l 1
+ 747 1504 l 1
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Yacute J
+LCarets2: 1 0
+EndChar
+
+StartChar: Y_T
+Encoding: 299 -1 233
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1107 1024 m 13
+ 2112 1024 l 5
+ 2112 960 l 29
+ 1632 960 l 29
+ 1632 0 l 29
+ 1568 0 l 29
+ 1568 960 l 29
+ 1133 960 l 5
+ 672 499 l 5
+ 672 0 l 5
+ 608 0 l 5
+ 608 499 l 5
+ 128 979 l 5
+ 173 1024 l 5
+ 640 557 l 5
+ 1107 1024 l 13
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y T
+LCarets2: 1 0
+EndChar
+
+StartChar: Yacute_T
+Encoding: 300 -1 234
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1107 1024 m 13
+ 2112 1024 l 5
+ 2112 960 l 29
+ 1632 960 l 29
+ 1632 0 l 29
+ 1568 0 l 29
+ 1568 960 l 29
+ 1133 960 l 5
+ 672 499 l 5
+ 672 0 l 5
+ 608 0 l 5
+ 608 499 l 5
+ 128 979 l 5
+ 173 1024 l 5
+ 640 557 l 5
+ 1107 1024 l 13
+747 1504 m 1
+ 792 1459 l 1
+ 533 1200 l 1
+ 488 1245 l 1
+ 747 1504 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Yacute T
+EndChar
+
+StartChar: Y_Z
+Encoding: 301 -1 235
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1107 1024 m 13
+ 2112 1024 l 5
+ 2112 979 l 5
+ 1197 64 l 29
+ 2112 64 l 5
+ 2112 0 l 29
+ 1088 0 l 29
+ 1088 45 l 5
+ 2003 960 l 29
+ 1133 960 l 5
+ 672 499 l 5
+ 672 0 l 5
+ 608 0 l 5
+ 608 499 l 5
+ 128 979 l 5
+ 173 1024 l 5
+ 640 557 l 5
+ 1107 1024 l 13
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y Z
+EndChar
+
+StartChar: Yacute_Z
+Encoding: 302 -1 236
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1107 1024 m 13
+ 2112 1024 l 5
+ 2112 979 l 5
+ 1197 64 l 29
+ 2112 64 l 5
+ 2112 0 l 29
+ 1088 0 l 29
+ 1088 45 l 5
+ 2003 960 l 29
+ 1133 960 l 5
+ 672 499 l 5
+ 672 0 l 5
+ 608 0 l 5
+ 608 499 l 5
+ 128 979 l 5
+ 173 1024 l 5
+ 640 557 l 5
+ 1107 1024 l 13
+747 1504 m 1
+ 792 1459 l 1
+ 533 1200 l 1
+ 488 1245 l 1
+ 747 1504 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Yacute Z
+EndChar
+
+StartChar: Z_x
+Encoding: 303 -1 237
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1328 499 m 1
+ 1373 544 l 1
+ 1600 317 l 1
+ 1827 544 l 1
+ 2112 544 l 1
+ 2112 480 l 1
+ 1853 480 l 1
+ 1645 272 l 1
+ 1872 45 l 1
+ 1827 0 l 1
+ 1600 227 l 1
+ 1373 0 l 1
+ 128 0 l 1
+ 128 45 l 1
+ 1043 960 l 1
+ 128 960 l 1
+ 128 1024 l 1
+ 1152 1024 l 1
+ 1152 979 l 1
+ 237 64 l 1
+ 1347 64 l 1
+ 1555 272 l 1
+ 1328 499 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Z x
+EndChar
+
+StartChar: z_x
+Encoding: 304 -1 238
+Width: 2240
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1328 499 m 1
+ 1373 544 l 1
+ 1600 317 l 1
+ 1827 544 l 1
+ 2112 544 l 1
+ 2112 480 l 1
+ 1853 480 l 1
+ 1645 272 l 1
+ 1872 45 l 1
+ 1827 0 l 1
+ 1600 227 l 1
+ 1373 0 l 1
+ 128 0 l 1
+ 128 45 l 1
+ 563 480 l 1
+ 128 480 l 1
+ 128 544 l 1
+ 672 544 l 1
+ 672 499 l 1
+ 237 64 l 1
+ 1347 64 l 1
+ 1555 272 l 1
+ 1328 499 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" z x
 EndChar
 EndChars
 EndSplineFont
