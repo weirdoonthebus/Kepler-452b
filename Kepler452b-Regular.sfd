@@ -2,7 +2,7 @@ SplineFontDB: 3.2
 FontName: Kepler452b-Regular
 FullName: Kepler-452b Regular
 FamilyName: Kepler452b-Regular
-Weight: Regular
+Weight: Medium
 Copyright: Created by WeirdoOnTheBus with FontForge 2.0 (http://fontforge.sf.net)
 UComments: "2017-3-8: Created."
 Version: 003.000
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1641328136
+ModificationTime: 1641410034
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -46,13 +46,13 @@ Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard L
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "Light Kerning" [307,30,4] "'kern' Horizontal Kerning in Latin lookup 0-1" [307,30,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 44 40 "'kern' Horizontal Kerning in Latin lookup 0-1"
+KernClass2: 48 44 "'kern' Horizontal Kerning in Latin lookup 0-1"
  57 a agrave aacute acircumflex atilde adieresis aring ae x_a
  1 B
  1 b
  1 C
  1 c
- 1 D
+ 5 D Eth
  1 E
  1 e
  1 F
@@ -60,7 +60,7 @@ KernClass2: 44 40 "'kern' Horizontal Kerning in Latin lookup 0-1"
  1 G
  1 g
  1 h
- 9 I S_I T_I
+ 45 I Igrave Iacute Icircumflex Idieresis S_I T_I
  1 i
  30 J S_J T_J V_J v_J Y_J Yacute_J
  1 j
@@ -90,6 +90,10 @@ KernClass2: 44 40 "'kern' Horizontal Kerning in Latin lookup 0-1"
  68 y yacute ydieresis t_y t_yacute t_ydieresis x_y x_yacute x_ydieresis
  30 Z T_Z S_Z V_Z v_Z Y_Z Yacute_Z
  9 z t_z x_z
+ 22 quoteleft quotedblleft
+ 36 hyphen emdash uni00AD periodcentered
+ 10 logicalnot
+ 10 underscore
  1 a
  51 agrave aacute acircumflex atilde adieresis aring ae
  10 C Ccedilla
@@ -128,8 +132,12 @@ KernClass2: 44 40 "'kern' Horizontal Kerning in Latin lookup 0-1"
  16 yacute ydieresis
  5 Z Z_x
  5 z z_x
- 0 
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} -80 {} -80 {} 0 {} -560 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -560 {} -560 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} -80 {} -80 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -560 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} -80 {} -80 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} -80 {} -80 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} -320 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {}
+ 51 quotedbl quotesingle grave quoteright quotedblright
+ 6 period
+ 5 comma
+ 47 hyphen emdash logicalnot uni00AD periodcentered
+ 10 underscore
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} -80 {} -80 {} 0 {} -560 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -560 {} -560 {} 0 {} -320 {} 0 {} -320 {} -320 {} -320 {} -560 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} -80 {} -80 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} -320 {} -80 {} -80 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -560 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -320 {} -320 {} 0 {} 0 {} -560 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} 0 {} -320 {} -80 {} -320 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} -80 {} -80 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} -320 {} -80 {} -80 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -560 {} -560 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {} 0 {} -320 {} -560 {} -320 {} -560 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} -80 {} -80 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} -320 {} -80 {} -80 {} 0 {} -320 {} 0 {} -320 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} -320 {} 0 {} -320 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} -560 {} 0 {} -320 {} -320 {} 0 {} -320 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} -320 {} -80 {} -80 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -560 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} -80 {} -80 {} -80 {} -360 {} -360 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -80 {} -80 {} -80 {} -80 {} -80 {} -80 {} -80 {} -80 {} 0 {} -80 {} 0 {} 0 {} -80 {} -80 {} -80 {} -80 {} 0 {} -320 {} 0 {} -80 {} -80 {} 0 {} -80 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -80 {} -320 {} 0 {} 0 {} -320 {} 0 {} -80 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -80 {} -80 {} 0 {} 0 {} -80 {} 0 {} -80 {} 0 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} -320 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -320 {} -320 {} -320 {} 0 {} 0 {} -320 {} 0 {} -80 {} 0 {} -80 {}
 LangName: 1033 "" "" "" "" "" "" "" "" "" "WeirdoOnTheBus" "" "" "https://weirdoonthebus.com" "Copyright (c) 2022, WeirdoOnTheBus (weirdoonthebus@gmail.com),+AAoA-with Reserved Font Name Kepler452b-Regular.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "Kepler452b" "Regular" "" "" "" "Kepler452b" "Regular"
 Encoding: Custom
 UnicodeInterp: none
@@ -201,7 +209,7 @@ Grid
 128 2527 m 0
  128 -1569 l 1024
 EndSplineSet
-BeginChars: 307 239
+BeginChars: 308 243
 
 StartChar: A
 Encoding: 65 65 0
@@ -1363,17 +1371,17 @@ EndChar
 
 StartChar: hyphen
 Encoding: 45 45 46
-Width: 1280
+Width: 800
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-1152 544 m 29
- 1152 480 l 29
+672 544 m 29
+ 672 480 l 29
  128 480 l 29
  128 544 l 29
- 1152 544 l 29
+ 672 544 l 29
 EndSplineSet
 Validated: 1
 EndChar
@@ -1468,17 +1476,17 @@ EndChar
 
 StartChar: period
 Encoding: 46 46 50
-Width: 128
+Width: 320
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 1
- 0 64 l 1
- 128 64 l 25
- 128 0 l 25
- 0 0 l 1
+128 0 m 5
+ 128 130 l 5
+ 192 130 l 5
+ 192 0 l 5
+ 128 0 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -2297,7 +2305,7 @@ EndChar
 
 StartChar: space
 Encoding: 32 32 84
-Width: 1280
+Width: 640
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -2307,19 +2315,17 @@ EndChar
 
 StartChar: comma
 Encoding: 44 44 85
-Width: 320
+Width: 608
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-128 26 m 5
- 128 128 l 5
- 192 128 l 5
- 192 0 l 5
- 65 -127 l 5
- 20 -82 l 5
- 128 26 l 5
+387 68 m 5
+ 432 19 l 5
+ 173 -240 l 5
+ 128 -195 l 5
+ 387 68 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -2360,24 +2366,22 @@ EndChar
 
 StartChar: semicolon
 Encoding: 59 59 88
-Width: 320
+Width: 560
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-128 26 m 1
- 128 128 l 1
- 192 128 l 1
- 192 0 l 1
- 65 -127 l 1
- 20 -82 l 1
- 128 26 l 1
-128 848 m 25
- 192 848 l 25
- 192 720 l 25
- 128 720 l 25
- 128 848 l 25
+387 68 m 5
+ 432 19 l 5
+ 173 -240 l 5
+ 128 -195 l 5
+ 387 68 l 5
+368 848 m 25
+ 432 848 l 25
+ 432 720 l 25
+ 368 720 l 25
+ 368 848 l 25
 EndSplineSet
 Validated: 1
 EndChar
@@ -2412,44 +2416,44 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-413 1024 m 1
- 672 765 l 1
- 625 720 l 1
- 368 979 l 1
- 413 1024 l 1
-173 1024 m 1
- 432 765 l 1
- 385 720 l 1
- 128 979 l 1
- 173 1024 l 1
+413 1024 m 5
+ 672 765 l 5
+ 625 720 l 5
+ 368 979 l 5
+ 413 1024 l 5
+173 1024 m 5
+ 432 765 l 5
+ 385 720 l 5
+ 128 979 l 5
+ 173 1024 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: parenright
 Encoding: 41 41 91
-Width: 432
+Width: 560
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-64 1264 m 1
- 304 1024 l 1
- 304 0 l 1
- 64 -240 l 1
- 16 -192 l 1
- 240 32 l 1
- 240 992 l 1
- 16 1216 l 1
- 64 1264 l 1
+192 1264 m 1
+ 432 1024 l 1
+ 432 0 l 1
+ 192 -240 l 1
+ 144 -192 l 1
+ 368 32 l 1
+ 368 992 l 1
+ 144 1216 l 1
+ 192 1264 l 1
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: parenleft
 Encoding: 40 40 92
-Width: 432
+Width: 560
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -3491,13 +3495,13 @@ StartChar: acircumflex
 Encoding: 226 226 127
 Width: 1280
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
 640 1024 m 5
- 912 750 l 5
- 867 705 l 5
+ 914 750 l 5
+ 869 705 l 5
  640 934 l 5
  411 705 l 5
  366 750 l 5
@@ -3517,7 +3521,6 @@ SplineSet
  128 480 l 25
  128 544 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: atilde
@@ -3695,11 +3698,11 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-535 1024 m 5
- 792 765 l 5
- 747 720 l 5
- 488 979 l 5
- 535 1024 l 5
+655 1024 m 5
+ 912 765 l 5
+ 867 720 l 5
+ 608 979 l 5
+ 655 1024 l 5
 1088 480 m 1
  387 480 l 1
  211 304 l 1
@@ -3716,7 +3719,6 @@ SplineSet
  128 304 l 1
  368 544 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: eacute
@@ -3727,11 +3729,11 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-747 1024 m 5
- 792 979 l 5
- 535 720 l 5
- 490 765 l 5
- 747 1024 l 5
+867 1024 m 5
+ 912 979 l 5
+ 655 720 l 5
+ 610 765 l 5
+ 867 1024 l 5
 1088 480 m 1
  387 480 l 1
  211 304 l 1
@@ -3748,7 +3750,6 @@ SplineSet
  128 304 l 1
  368 544 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ecircumflex
@@ -3759,13 +3760,13 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-640 1024 m 5
- 912 750 l 5
- 867 705 l 5
- 640 934 l 5
- 411 705 l 5
- 366 750 l 5
- 640 1024 l 5
+760 1024 m 5
+ 1034 750 l 5
+ 989 705 l 5
+ 760 934 l 5
+ 531 705 l 5
+ 486 750 l 5
+ 760 1024 l 5
 1088 480 m 1
  387 480 l 1
  211 304 l 1
@@ -3782,7 +3783,6 @@ SplineSet
  128 304 l 1
  368 544 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: edieresis
@@ -3793,16 +3793,16 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-912 848 m 5
- 912 720 l 5
- 848 720 l 5
- 848 848 l 5
- 912 848 l 5
-432 848 m 5
- 432 720 l 5
- 368 720 l 5
- 368 848 l 5
- 432 848 l 5
+1032 848 m 5
+ 1032 720 l 5
+ 968 720 l 5
+ 968 848 l 5
+ 1032 848 l 5
+552 848 m 5
+ 552 720 l 5
+ 488 720 l 5
+ 488 848 l 5
+ 552 848 l 5
 1088 480 m 1
  387 480 l 1
  211 304 l 1
@@ -3819,7 +3819,6 @@ SplineSet
  128 304 l 1
  368 544 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: igrave
@@ -3874,20 +3873,19 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-400 1024 m 1
- 672 750 l 1
- 627 705 l 1
- 400 934 l 1
- 171 705 l 1
- 126 750 l 1
- 400 1024 l 1
+400 1024 m 5
+ 674 750 l 5
+ 629 705 l 5
+ 400 934 l 5
+ 171 705 l 5
+ 126 750 l 5
+ 400 1024 l 5
 368 608 m 25
  432 608 l 25
  432 0 l 25
  368 0 l 25
  368 608 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: idieresis
@@ -4042,8 +4040,8 @@ LayerCount: 2
 Fore
 SplineSet
 640 1024 m 5
- 912 750 l 5
- 867 705 l 5
+ 914 750 l 5
+ 869 705 l 5
  640 934 l 5
  411 705 l 5
  366 750 l 5
@@ -4059,7 +4057,6 @@ SplineSet
  1152 0 l 25
  128 0 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: otilde
@@ -4213,8 +4210,8 @@ LayerCount: 2
 Fore
 SplineSet
 640 1024 m 5
- 912 750 l 5
- 867 705 l 5
+ 914 750 l 5
+ 869 705 l 5
  640 934 l 5
  411 705 l 5
  366 750 l 5
@@ -4229,7 +4226,6 @@ SplineSet
  128 0 l 25
  128 544 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: udieresis
@@ -4469,36 +4465,34 @@ EndChar
 
 StartChar: cedilla
 Encoding: 184 184 160
-Width: 320
+Width: 608
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-128 26 m 5
- 128 128 l 5
- 192 128 l 5
- 192 0 l 5
- 65 -127 l 5
- 20 -82 l 5
- 128 26 l 5
+387 68 m 5
+ 432 19 l 5
+ 173 -240 l 5
+ 128 -195 l 5
+ 387 68 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: periodcentered
 Encoding: 183 183 161
-Width: 128
+Width: 320
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-0 480 m 1
- 0 544 l 1
- 128 544 l 1
- 128 480 l 1
- 0 480 l 1
+128 480 m 5
+ 128 610 l 5
+ 192 610 l 5
+ 192 480 l 5
+ 128 480 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -4557,17 +4551,17 @@ EndChar
 
 StartChar: uni00AD
 Encoding: 173 173 164
-Width: 1280
+Width: 800
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-1152 544 m 25
- 1152 480 l 25
- 128 480 l 25
- 128 544 l 25
- 1152 544 l 25
+672 544 m 29
+ 672 480 l 29
+ 128 480 l 29
+ 128 544 l 29
+ 672 544 l 29
 EndSplineSet
 Validated: 1
 EndChar
@@ -4599,11 +4593,11 @@ Flags: MW
 LayerCount: 2
 Fore
 SplineSet
-1152 1024 m 25
- 1152 960 l 25
- 128 960 l 25
- 128 1024 l 25
- 1152 1024 l 25
+1152 1024 m 29
+ 1152 960 l 29
+ 128 960 l 29
+ 128 1024 l 29
+ 1152 1024 l 29
 EndSplineSet
 Validated: 1
 EndChar
@@ -4887,13 +4881,13 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-1107 1024 m 5
- 1152 979 l 5
- 685 512 l 5
- 1152 45 l 5
- 1107 0 l 5
- 595 512 l 5
- 1107 1024 l 5
+1107 1024 m 1
+ 1152 979 l 1
+ 685 512 l 1
+ 1152 45 l 1
+ 1107 0 l 1
+ 595 512 l 1
+ 1107 1024 l 1
 627 1024 m 1
  672 979 l 1
  205 512 l 1
@@ -5296,12 +5290,20 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: NameMe.170
-Encoding: 170 -1 189
+StartChar: emdash
+Encoding: 170 8212 189
 Width: 1280
-Flags: W
+VWidth: 0
+Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+1152 544 m 29
+ 1152 480 l 29
+ 128 480 l 29
+ 128 544 l 29
+ 1152 544 l 29
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -6973,6 +6975,86 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" z x
+EndChar
+
+StartChar: quoteleft
+Encoding: 127 8216 239
+Width: 560
+VWidth: 0
+Flags: W
+HStem: 716 308
+VStem: 128 304
+LayerCount: 2
+Fore
+SplineSet
+387 1024 m 5
+ 432 975 l 5
+ 173 716 l 5
+ 128 761 l 5
+ 387 1024 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quoteright
+Encoding: 128 8217 240
+Width: 560
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+173 1024 m 5
+ 432 765 l 5
+ 387 720 l 5
+ 128 979 l 5
+ 173 1024 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quotedblleft
+Encoding: 129 8220 241
+Width: 800
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+627 1024 m 1
+ 672 975 l 1
+ 413 716 l 1
+ 368 761 l 1
+ 627 1024 l 1
+387 1024 m 1
+ 432 975 l 1
+ 173 716 l 1
+ 128 761 l 1
+ 387 1024 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quotedblright
+Encoding: 130 8221 242
+Width: 800
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+413 1024 m 5
+ 672 765 l 5
+ 625 720 l 5
+ 368 979 l 5
+ 413 1024 l 5
+173 1024 m 5
+ 432 765 l 5
+ 385 720 l 5
+ 128 979 l 5
+ 173 1024 l 5
+EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
