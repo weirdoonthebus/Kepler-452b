@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1641410155
+ModificationTime: 1641491309
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -5197,13 +5197,20 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: NameMe.170
-Encoding: 170 -1 189
+StartChar: emdash
+Encoding: 170 8212 189
 Width: 1280
-Flags: W
+VWidth: 0
+Flags: HWO
 LayerCount: 2
 Fore
-Validated: 1
+SplineSet
+1152 544 m 29
+ 1152 480 l 29
+ 128 480 l 1
+ 128 544 l 1
+ 1152 544 l 29
+EndSplineSet
 EndChar
 
 StartChar: quoteleft
