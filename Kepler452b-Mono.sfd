@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1641491309
+ModificationTime: 1641494397
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 144 18 7
+WinInfo: 64 8 2
 BeginPrivate: 3
 StdVW 4 [44]
 StdHW 4 [44]
@@ -353,26 +353,26 @@ StartChar: B
 Encoding: 66 66 10
 Width: 1280
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-653 960 m 5
- 192 960 l 5
- 192 544 l 5
- 1069 544 l 5
- 653 960 l 5
-1088 480 m 29
- 192 480 l 5
- 192 64 l 5
- 1088 64 l 29
- 1088 480 l 29
-128 1024 m 5
- 672 1024 l 29
- 1152 544 l 5
- 1152 0 l 29
- 128 0 l 5
- 128 1024 l 5
+634 960 m 1
+ 192 960 l 1
+ 192 544 l 1
+ 1050 544 l 1
+ 634 960 l 1
+1088 480 m 25
+ 192 480 l 1
+ 192 64 l 1
+ 1088 64 l 25
+ 1088 480 l 25
+128 1024 m 1
+ 653 1024 l 25
+ 1152 525 l 5
+ 1152 0 l 25
+ 128 0 l 1
+ 128 1024 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -632,19 +632,19 @@ StartChar: W
 Encoding: 87 87 21
 Width: 1280
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-595 512 m 5
+595 512 m 1
  192 915 l 1
  192 109 l 1
- 595 512 l 5
+ 595 512 l 1
 128 1024 m 1
  173 1024 l 1
  1088 109 l 1
- 1088 1026 l 1
- 1152 1026 l 25
+ 1088 1024 l 5
+ 1152 1024 l 29
  1152 0 l 1
  1107 0 l 1
  640 467 l 1
@@ -3428,6 +3428,7 @@ SplineSet
  128 480 l 25
  128 544 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: atilde
@@ -3626,6 +3627,7 @@ SplineSet
  128 304 l 1
  368 544 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: eacute
@@ -3657,6 +3659,7 @@ SplineSet
  128 304 l 1
  368 544 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ecircumflex
@@ -3690,6 +3693,7 @@ SplineSet
  128 304 l 1
  368 544 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: edieresis
@@ -3726,6 +3730,7 @@ SplineSet
  128 304 l 1
  368 544 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: igrave
@@ -3793,6 +3798,7 @@ SplineSet
  608 0 l 25
  608 608 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: idieresis
@@ -3964,6 +3970,7 @@ SplineSet
  1152 0 l 25
  128 0 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: otilde
@@ -4133,6 +4140,7 @@ SplineSet
  128 0 l 25
  128 544 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: udieresis
@@ -5201,7 +5209,7 @@ StartChar: emdash
 Encoding: 170 8212 189
 Width: 1280
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5211,6 +5219,7 @@ SplineSet
  128 544 l 1
  1152 544 l 29
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quoteleft
@@ -5266,6 +5275,7 @@ SplineSet
  867 1024 l 1
  912 979 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quotedblright
@@ -5560,13 +5570,54 @@ Fore
 Validated: 1
 EndChar
 
-StartChar: NameMe.0
+StartChar: W_O_T_B
 Encoding: 0 -1 224
 Width: 1280
-Flags: W
+Flags: HWO
 LayerCount: 2
 Fore
+SplineSet
+672 64 m 1
+ 1043 64 l 1
+ 672 435 l 1
+ 672 64 l 1
+1088 109 m 1
+ 1088 480 l 1
+ 717 480 l 1
+ 1088 109 l 1
+1088 960 m 1
+ 717 960 l 1
+ 1088 589 l 1
+ 1088 960 l 1
+672 544 m 1
+ 1050 544 l 1
+ 672 922 l 1
+ 672 544 l 1
+608 960 m 1
+ 237 960 l 1
+ 608 589 l 1
+ 608 960 l 1
+192 544 m 1
+ 563 544 l 1
+ 192 915 l 1
+ 192 544 l 1
+563 480 m 1
+ 192 480 l 1
+ 192 109 l 1
+ 563 480 l 1
+608 64 m 1
+ 608 435 l 1
+ 237 64 l 1
+ 608 64 l 1
+128 1024 m 1
+ 1152 1024 l 1
+ 1152 0 l 1
+ 128 0 l 1
+ 128 1024 l 1
+EndSplineSet
 Validated: 1
+LCarets2: 3 0 0 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" W O T B
 EndChar
 
 StartChar: NameMe.1

@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1489043219
-ModificationTime: 1641415841
+ModificationTime: 1641493187
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -153,7 +153,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 198 18 7
+WinInfo: 0 18 7
 BeginPrivate: 3
 StdVW 4 [44]
 StdHW 4 [44]
@@ -217,7 +217,7 @@ Grid
 128 2527 m 0
  128 -1569 l 1024
 EndSplineSet
-BeginChars: 310 248
+BeginChars: 311 249
 
 StartChar: A
 Encoding: 65 65 0
@@ -454,23 +454,23 @@ StartChar: B
 Encoding: 66 66 10
 Width: 1280
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-653 960 m 1
+634 960 m 1
  192 960 l 1
  192 544 l 1
- 1069 544 l 1
- 653 960 l 1
+ 1050 544 l 1
+ 634 960 l 1
 1088 480 m 25
  192 480 l 1
  192 64 l 1
  1088 64 l 25
  1088 480 l 25
 128 1024 m 1
- 672 1024 l 25
- 1152 544 l 1
+ 653 1024 l 25
+ 1152 525 l 5
  1152 0 l 25
  128 0 l 1
  128 1024 l 1
@@ -733,19 +733,19 @@ StartChar: W
 Encoding: 87 87 21
 Width: 1280
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-595 512 m 5
+595 512 m 1
  192 915 l 1
  192 109 l 1
- 595 512 l 5
+ 595 512 l 1
 128 1024 m 1
  173 1024 l 1
  1088 109 l 1
- 1088 1026 l 1
- 1152 1026 l 25
+ 1088 1024 l 5
+ 1152 1024 l 29
  1152 0 l 1
  1107 0 l 1
  640 467 l 1
@@ -7259,8 +7259,58 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" y question
+EndChar
+
+StartChar: W_O_T_B
+Encoding: 0 -1 248
+Width: 1280
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1088 480 m 5
+ 717 480 l 5
+ 1088 109 l 5
+ 1088 480 l 5
+1088 960 m 5
+ 717 960 l 5
+ 1088 589 l 5
+ 1088 960 l 5
+672 922 m 5
+ 672 544 l 5
+ 1050 544 l 5
+ 672 922 l 5
+237 960 m 5
+ 608 589 l 5
+ 608 960 l 5
+ 237 960 l 5
+563 544 m 5
+ 192 915 l 5
+ 192 544 l 5
+ 563 544 l 5
+192 109 m 5
+ 563 480 l 5
+ 192 480 l 5
+ 192 109 l 5
+608 435 m 5
+ 237 64 l 5
+ 608 64 l 5
+ 608 435 l 5
+1043 64 m 5
+ 672 435 l 5
+ 672 64 l 5
+ 1043 64 l 5
+128 1024 m 5
+ 1152 1024 l 5
+ 1152 0 l 5
+ 128 0 l 5
+ 128 1024 l 5
+EndSplineSet
+LCarets2: 3 0 0 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" W O T B
 EndChar
 EndChars
 EndSplineFont
