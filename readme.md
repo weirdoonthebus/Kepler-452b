@@ -28,7 +28,7 @@ Created using FontForge.
 To Do
 -----
 
-1. Crylic script support.
+1. Cyrillic script support.
 
 2. Bold + italic variants.
 
